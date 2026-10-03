@@ -1,0 +1,25 @@
+{
+  "pipeline_version": "r3_fullcurve_stats_20260926",
+  "config_hash": "29fe1b0663bc66457de0da00ee84d5ec4df6483fe78f5fd476b650795a4a3138",
+  "c_star_macro_f1": 0.4356759123934957,
+  "d_full_macro_f1": 0.4638891817001234,
+  "d_eq_n": 10,
+  "d_eq_delta_mean": 0.02043559077725891,
+  "d_eq_delta_std": 0.0063413761183301375,
+  "d_eq_delta_min": 0.011975658815551682,
+  "d_eq_delta_max": 0.030576348422383492,
+  "d_eq_macro_mean": 0.4561115031707546,
+  "subsample_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "interpretation": "Equal-budget effect of replacing ~10% source rows with same-target-well labelled depths under fixed test blocks; not a pure neighbour-leak estimate."
+}

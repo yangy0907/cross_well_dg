@@ -1,0 +1,20 @@
+# Protocol-1 per-well Hybrid+Sim under r2 (deployment-matched UDA-lite)
+seed: 42
+seeds: [42, 43, 44, 45]
+max_wells: null
+
+methods:
+  - lgbm_hybrid_sim_perwell
+
+protocol1:
+  enabled: true
+  train_frac: 0.70
+  val_frac: 0.15
+
+protocol2:
+  enabled: false
+
+protocol3:
+  enabled: false
+
+naive_leakage_baseline: false

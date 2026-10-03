@@ -1,0 +1,428 @@
+{
+  "method": "lgbm_hybrid_while",
+  "seed": 43,
+  "pipeline_version": "r3_fullcurve_stats_20260930",
+  "feature_mode": "hybrid",
+  "use_relative_depth": false,
+  "well_z_mode": "causal",
+  "stats_support": "full_curve",
+  "n_train": 987070,
+  "n_train_eligible": 987070,
+  "n_train_fit": 987070,
+  "n_val": 244110,
+  "n_test": 200203,
+  "n_train_dropped_unseen_label": 0,
+  "n_val_dropped_unseen_label": 0,
+  "n_val_dropped_unseen": 0,
+  "n_test_unseen_label_kept": 0,
+  "label_regime": "closed_set",
+  "n_features": 48,
+  "seconds": 267.61,
+  "overall": {
+    "accuracy": 0.6314740538353572,
+    "macro_f1": 0.46078013091970466,
+    "weighted_f1": 0.6748842105139095
+  },
+  "well_summary": {
+    "well_macro_f1_mean": 0.43284595822915195,
+    "well_macro_f1_median": 0.435854707045883,
+    "well_macro_f1_std": 0.10316934417560043,
+    "worst10pct_well_f1": 0.28520693059045743,
+    "worst_well_f1": 0.2588093444362162
+  },
+  "well_table": [
+    {
+      "well_id": "34/4-10 R",
+      "n": 3880,
+      "n_classes_true": 6,
+      "macro_f1": 0.2588093444362162,
+      "accuracy": 0.5425257731958762
+    },
+    {
+      "well_id": "29/6-1",
+      "n": 24468,
+      "n_classes_true": 6,
+      "macro_f1": 0.3116045167446987,
+      "accuracy": 0.3536047081902894
+    },
+    {
+      "well_id": "34/10-19",
+      "n": 12662,
+      "n_classes_true": 8,
+      "macro_f1": 0.34075321450525725,
+      "accuracy": 0.5742378771126204
+    },
+    {
+      "well_id": "34/7-20",
+      "n": 13157,
+      "n_classes_true": 8,
+      "macro_f1": 0.3641276204848345,
+      "accuracy": 0.826404195485293
+    },
+    {
+      "well_id": "15/9-13",
+      "n": 18270,
+      "n_classes_true": 8,
+      "macro_f1": 0.3941071280169063,
+      "accuracy": 0.8277504105090312
+    },
+    {
+      "well_id": "25/11-19 S",
+      "n": 6975,
+      "n_classes_true": 5,
+      "macro_f1": 0.3975943368145306,
+      "accuracy": 0.8308243727598567
+    },
+    {
+      "well_id": "29/3-1",
+      "n": 24213,
+      "n_classes_true": 7,
+      "macro_f1": 0.4042171267294822,
+      "accuracy": 0.468467352248792
+    },
+    {
+      "well_id": "33/5-2",
+      "n": 4091,
+      "n_classes_true": 5,
+      "macro_f1": 0.41274717776298153,
+      "accuracy": 0.6922512833048154
+    },
+    {
+      "well_id": "31/4-5",
+      "n": 13400,
+      "n_classes_true": 8,
+      "macro_f1": 0.435854707045883,
+      "accuracy": 0.7440298507462687
+    },
+    {
+      "well_id": "25/2-7",
+      "n": 25131,
+      "n_classes_true": 8,
+      "macro_f1": 0.44574692454077053,
+      "accuracy": 0.697783613863356
+    },
+    {
+      "well_id": "34/3-1 A",
+      "n": 2251,
+      "n_classes_true": 6,
+      "macro_f1": 0.4469138436730426,
+      "accuracy": 0.7325633051976899
+    },
+    {
+      "well_id": "31/2-21 S",
+      "n": 7840,
+      "n_classes_true": 6,
+      "macro_f1": 0.44792429088280405,
+      "accuracy": 0.3808673469387755
+    },
+    {
+      "well_id": "31/3-2",
+      "n": 10750,
+      "n_classes_true": 6,
+      "macro_f1": 0.4548344808483224,
+      "accuracy": 0.6947906976744186
+    },
+    {
+      "well_id": "32/2-1",
+      "n": 3049,
+      "n_classes_true": 4,
+      "macro_f1": 0.4605278441140926,
+      "accuracy": 0.7261397179403083
+    },
+    {
+      "well_id": "34/12-1",
+      "n": 9350,
+      "n_classes_true": 5,
+      "macro_f1": 0.4775762079616183,
+      "accuracy": 0.4697326203208556
+    },
+    {
+      "well_id": "31/2-10",
+      "n": 9033,
+      "n_classes_true": 6,
+      "macro_f1": 0.5901579959159807,
+      "accuracy": 0.7966345621609654
+    },
+    {
+      "well_id": "16/2-7",
+      "n": 11683,
+      "n_classes_true": 7,
+      "macro_f1": 0.7148845294181625,
+      "accuracy": 0.7718051870238809
+    }
+  ],
+  "well_table_fixed": [
+    {
+      "well_id": "34/4-10 R",
+      "n": 3880,
+      "n_classes_true": 6,
+      "macro_f1": 0.1294046722181081,
+      "accuracy": 0.5425257731958762
+    },
+    {
+      "well_id": "32/2-1",
+      "n": 3049,
+      "n_classes_true": 4,
+      "macro_f1": 0.1535092813713642,
+      "accuracy": 0.7261397179403083
+    },
+    {
+      "well_id": "29/6-1",
+      "n": 24468,
+      "n_classes_true": 6,
+      "macro_f1": 0.15580225837234934,
+      "accuracy": 0.3536047081902894
+    },
+    {
+      "well_id": "25/11-19 S",
+      "n": 6975,
+      "n_classes_true": 5,
+      "macro_f1": 0.16566430700605442,
+      "accuracy": 0.8308243727598567
+    },
+    {
+      "well_id": "33/5-2",
+      "n": 4091,
+      "n_classes_true": 5,
+      "macro_f1": 0.17197799073457565,
+      "accuracy": 0.6922512833048154
+    },
+    {
+      "well_id": "34/12-1",
+      "n": 9350,
+      "n_classes_true": 5,
+      "macro_f1": 0.1989900866506743,
+      "accuracy": 0.4697326203208556
+    },
+    {
+      "well_id": "34/3-1 A",
+      "n": 2251,
+      "n_classes_true": 6,
+      "macro_f1": 0.2234569218365213,
+      "accuracy": 0.7325633051976899
+    },
+    {
+      "well_id": "31/2-21 S",
+      "n": 7840,
+      "n_classes_true": 6,
+      "macro_f1": 0.22396214544140203,
+      "accuracy": 0.3808673469387755
+    },
+    {
+      "well_id": "34/10-19",
+      "n": 12662,
+      "n_classes_true": 8,
+      "macro_f1": 0.22716880967017147,
+      "accuracy": 0.5742378771126204
+    },
+    {
+      "well_id": "31/3-2",
+      "n": 10750,
+      "n_classes_true": 6,
+      "macro_f1": 0.2274172404241612,
+      "accuracy": 0.6947906976744186
+    },
+    {
+      "well_id": "29/3-1",
+      "n": 24213,
+      "n_classes_true": 7,
+      "macro_f1": 0.2357933239255313,
+      "accuracy": 0.468467352248792
+    },
+    {
+      "well_id": "34/7-20",
+      "n": 13157,
+      "n_classes_true": 8,
+      "macro_f1": 0.24275174698988966,
+      "accuracy": 0.826404195485293
+    },
+    {
+      "well_id": "15/9-13",
+      "n": 18270,
+      "n_classes_true": 8,
+      "macro_f1": 0.26273808534460424,
+      "accuracy": 0.8277504105090312
+    },
+    {
+      "well_id": "31/4-5",
+      "n": 13400,
+      "n_classes_true": 8,
+      "macro_f1": 0.2905698046972554,
+      "accuracy": 0.7440298507462687
+    },
+    {
+      "well_id": "31/2-10",
+      "n": 9033,
+      "n_classes_true": 6,
+      "macro_f1": 0.29507899795799036,
+      "accuracy": 0.7966345621609654
+    },
+    {
+      "well_id": "25/2-7",
+      "n": 25131,
+      "n_classes_true": 8,
+      "macro_f1": 0.29716461636051367,
+      "accuracy": 0.697783613863356
+    },
+    {
+      "well_id": "16/2-7",
+      "n": 11683,
+      "n_classes_true": 7,
+      "macro_f1": 0.41701597549392816,
+      "accuracy": 0.7718051870238809
+    }
+  ],
+  "label_mapping": {
+    "30000": 0,
+    "65000": 1,
+    "65030": 2,
+    "70000": 3,
+    "70032": 4,
+    "74000": 5,
+    "80000": 6,
+    "86000": 7,
+    "88000": 8,
+    "90000": 9,
+    "93000": 10,
+    "99000": 11
+  },
+  "train_class_names": [
+    "Sandstone",
+    "Shale",
+    "Sandstone/Shale",
+    "Limestone",
+    "Chalk",
+    "Dolomite",
+    "Marl",
+    "Anhydrite",
+    "Halite",
+    "Coal",
+    "Basement",
+    "Tuff"
+  ],
+  "per_class": {
+    "Sandstone": {
+      "f1": 0.7190911903814702,
+      "precision": 0.7602105984610112,
+      "recall": 0.6821917808219178,
+      "support": 35770
+    },
+    "Shale": {
+      "f1": 0.7627095968605065,
+      "precision": 0.8904009745837715,
+      "recall": 0.6670488849367,
+      "support": 128199
+    },
+    "Sandstone/Shale": {
+      "f1": 0.21009195944352746,
+      "precision": 0.14850707176532216,
+      "recall": 0.35894337016574585,
+      "support": 17376
+    },
+    "Limestone": {
+      "f1": 0.5243013365735115,
+      "precision": 0.43241889014155077,
+      "recall": 0.6657666345226615,
+      "support": 10370
+    },
+    "Dolomite": {
+      "f1": 0.002789400278940028,
+      "precision": 0.009708737864077669,
+      "recall": 0.0016286644951140066,
+      "support": 614
+    },
+    "Marl": {
+      "f1": 0.28943404346890467,
+      "precision": 0.26644215530903326,
+      "recall": 0.3167687235044748,
+      "support": 4246
+    },
+    "Anhydrite": {
+      "f1": 0.8664259927797834,
+      "precision": 0.8695652173913043,
+      "recall": 0.8633093525179856,
+      "support": 139
+    },
+    "Coal": {
+      "f1": 0.5161759360232643,
+      "precision": 0.4254044337926902,
+      "recall": 0.6561922365988909,
+      "support": 1082
+    },
+    "Tuff": {
+      "f1": 0.2560017224674346,
+      "precision": 0.17276954373728567,
+      "recall": 0.4939759036144578,
+      "support": 2407
+    }
+  },
+  "uda_target_mode": "none",
+  "smoothing_scope": "none",
+  "early_stopping_metric": "well_heldout_multi_logloss",
+  "n_estimators_budget": 180,
+  "known_class_diagnostics": {},
+  "val_open_diagnostics": {
+    "n_val_total": 244110,
+    "n_val_unseen_label_kept": 0,
+    "n_val_dropped_unseen_label": 0,
+    "macro_f1_including_unseen": 0.3643567351027834,
+    "worst_well_f1_fixed": 0.1245870833416322,
+    "note": "report-only; early stopping still uses known-class val rows"
+  },
+  "max_proba_diagnostics": {
+    "n": 200203,
+    "mean": 0.6595432893627342,
+    "median": 0.6532072132271934,
+    "bins": [
+      "[0,0.5)",
+      "[0.5,0.7)",
+      "[0.7,0.9)",
+      "[0.9,1]"
+    ],
+    "counts": [
+      52584,
+      60748,
+      53780,
+      33091
+    ],
+    "fracs": [
+      0.262653406792106,
+      0.3034320165032492,
+      0.2686273432466047,
+      0.16528723345804008
+    ]
+  },
+  "well_summary_fixed": {
+    "well_macro_f1_mean": 0.23049801555853497,
+    "well_macro_f1_median": 0.22716880967017147,
+    "well_macro_f1_std": 0.07012958182222408,
+    "worst10pct_well_f1": 0.14145697679473615,
+    "worst_well_f1": 0.1294046722181081
+  },
+  "fixed_label_mode": "train_learnable",
+  "n_fixed_labels": 12,
+  "fixed_well_labels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "git_commit": "f4dff61307f0f2e705e9f9716f85c06458eb17f7",
+  "git_dirty": false,
+  "git_describe": "f4dff61",
+  "hash_curves_all_parquet": "91c87c5b4f834397daa00b01ae727b059675863211f044645de62d451cfb8c46",
+  "hash_labeled_parquet": "43041111a78dd4726423d9f43fb9a3cc00d7284ebd9c49071c459697b99c0e87",
+  "hash_dataset_meta_json": "0fdd6fae08175da5c6c16d621fd8688db07a6a053167ade9f8be1b855e126209",
+  "split_hash": "fe9eb3ea720bc6ed24b88d121f06c9e5b26c43400ebd558750fed29a62314cff",
+  "config_hash": "84a59b18b9d77acfd78337dcc7e6fd2885b5dc948e5061d8377c0b5b28b35914",
+  "config_path": "D:\\工作空间\\测井\\cross_well_dg\\configs\\paper_r3_multirep.yaml",
+  "feature_param_hash": "80f751dcf6b86b3652b6c19bb1a93794dc1505ee4ff531e017226f9a7d9ef995"
+}

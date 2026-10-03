@@ -1,0 +1,21 @@
+# Stronger CORAL-MLP reference on Protocol-1 seed 42
+seed: 42
+seeds: [42]
+max_wells: null
+
+methods:
+  - mlp_coral_uda
+  - mlp_coral_strong
+
+protocol1:
+  enabled: true
+  train_frac: 0.70
+  val_frac: 0.15
+
+protocol2:
+  enabled: false
+
+protocol3:
+  enabled: false
+
+naive_leakage_baseline: false

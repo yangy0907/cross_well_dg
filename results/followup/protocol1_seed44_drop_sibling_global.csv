@@ -1,0 +1,3 @@
+setting,seed,method,pipeline_version,macro_f1,accuracy,worst_well_f1,n_train,n_val,n_test,n_train_wells,n_test_wells,seconds,note,n_dropped_train_rows
+seed44_published,44,lgbm_global,r3_fullcurve_stats_20260930,0.32563795214152297,0.6343099649065534,0.08186037113143255,966740,219583,245060,83,17,106.07,train includes 34/5-1 S; test has 34/5-1 A,
+seed44_drop_sibling,44,lgbm_global,r3_fullcurve_stats_20260930,0.3241259069023435,0.6292173345303191,0.09340471011184698,964467,219583,245060,82,17,104.54,dropped 34/5-1 S from train; same test wells,2273.0

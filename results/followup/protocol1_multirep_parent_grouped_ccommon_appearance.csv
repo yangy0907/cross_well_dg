@@ -1,0 +1,12 @@
+split_mode,class_name,n_closed_splits_with_test_support,n_closed_splits
+parent_grouped,Anhydrite,12,18
+parent_grouped,Chalk,15,18
+parent_grouped,Coal,18,18
+parent_grouped,Dolomite,18,18
+parent_grouped,Halite,10,18
+parent_grouped,Limestone,18,18
+parent_grouped,Marl,18,18
+parent_grouped,Sandstone,18,18
+parent_grouped,Sandstone/Shale,18,18
+parent_grouped,Shale,18,18
+parent_grouped,Tuff,18,18

@@ -1,0 +1,5 @@
+seed,n_collisions,parent,train_wellbores,test_wellbores
+42,0,,,
+43,0,,,
+44,1,34/5-1,34/5-1 S,34/5-1 A
+45,0,,,

@@ -1,0 +1,25 @@
+# Equal-row inductive RF / XGBoost under Protocol-1 (seeds 42--45).
+# ABSORBED into configs/paper_r3_release.yaml for acceptance runs.
+# Do NOT run this after paper_r3_release into the same summary_*.csv
+# (resume would drop other methods' rows on config_hash mismatch).
+# Kept only for historical / partial debugging with --allow-partial.
+seed: 42
+seeds: [42, 43, 44, 45]
+max_wells: null
+
+methods:
+  - xgb_global
+  - rf_global_full
+
+protocol1:
+  enabled: true
+  train_frac: 0.70
+  val_frac: 0.15
+
+protocol2:
+  enabled: false
+
+protocol3:
+  enabled: false
+
+naive_leakage_baseline: false

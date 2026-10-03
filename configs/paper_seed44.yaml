@@ -1,0 +1,25 @@
+# Protocol-1 multi-seed for variance (key methods only)
+seed: 44
+seeds: [44]
+max_wells: null
+
+methods:
+  - lgbm_global
+  - lgbm_wellnorm
+  - lgbm_hybrid
+  - lgbm_hybrid_sim
+  - lgbm_hybrid_smooth
+  - lgbm_hybrid_plus
+
+protocol1:
+  enabled: true
+  train_frac: 0.70
+  val_frac: 0.15
+
+protocol2:
+  enabled: false
+
+protocol3:
+  enabled: false
+
+naive_leakage_baseline: false

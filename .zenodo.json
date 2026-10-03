@@ -1,0 +1,53 @@
+{
+  "title": "cross_well_dg: Cross-well lithofacies evaluation protocols under domain shift (FORCE 2020)",
+  "upload_type": "software",
+  "description": "CPU-reproducible, leakage-restricted evaluation protocols and baselines for cross-well lithofacies classification on the FORCE 2020 well-log corpus. Includes Python pipeline (data preparation, Protocol-1/2/3, Hybrid / CORAL models), configs, well-split definitions, experiment CSV/JSON summaries, figure scripts, and GSE manuscript sources. Raw FORCE LAS files are not redistributed; cite the FORCE Zenodo release (10.5281/zenodo.4351156).",
+  "creators": [
+    {
+      "name": "Yang, Yun",
+      "affiliation": "Southwest Petroleum University",
+      "orcid": "0009-0001-1987-9516"
+    },
+    {
+      "name": "Du, Lihang",
+      "affiliation": "Southwest Petroleum University"
+    },
+    {
+      "name": "Yi, Wentao",
+      "affiliation": "Southwest Petroleum University"
+    },
+    {
+      "name": "He, An",
+      "affiliation": "Southwest Petroleum University"
+    },
+    {
+      "name": "Pu, Xueqin",
+      "affiliation": "Southwest Petroleum University"
+    }
+  ],
+  "keywords": [
+    "well logs",
+    "lithofacies",
+    "domain generalization",
+    "domain shift",
+    "FORCE 2020",
+    "LightGBM",
+    "machine learning"
+  ],
+  "license": "mit",
+  "version": "v1.0.0",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.4351156",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/yangy0907/cross_well_dg",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "url"
+    }
+  ]
+}

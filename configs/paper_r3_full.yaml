@@ -1,0 +1,40 @@
+# Round-3 historically used paper_r3_full.yaml. Prefer configs/paper_r3_release.yaml
+# for acceptance (adds equal-row RF-full / XGB in one config_hash; includes WellNorm-norel).
+# Do NOT follow with paper_equal_budget_p1 / paper_r3_wellnorm_norel into the same CSV.
+seed: 42
+seeds: [42, 43, 44, 45]
+max_wells: null
+
+methods:
+  - lgbm_global
+  - lgbm_global_eq120k
+  - rf_global
+  - lgbm_wellnorm
+  - lgbm_wellnorm_norel
+  - lgbm_hybrid
+  - lgbm_hybrid_norel
+  - lgbm_hybrid_while
+  - lgbm_hybrid_smooth
+  - lgbm_hybrid_sim
+  - lgbm_hybrid_sim_perwell
+  - lgbm_hybrid_plus
+  - mlp_source_only
+  - mlp_coral_uda
+
+protocol1:
+  enabled: true
+  train_frac: 0.70
+  val_frac: 0.15
+
+protocol2:
+  enabled: true
+  holdout_blocks:
+    - ["15"]
+    - ["35"]
+
+protocol3:
+  enabled: true
+  max_targets: 6
+  selection: spaced
+
+naive_leakage_baseline: true

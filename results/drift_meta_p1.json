@@ -1,0 +1,18 @@
+{
+  "protocol": "protocol1_seed42",
+  "n_train_rows": 986098,
+  "n_test_rows": 220839,
+  "n_train_wells": 83,
+  "n_test_wells": 17,
+  "mmd2_core_curves": 0.01933674796937085,
+  "curves_used_for_mmd": [
+    "GR",
+    "RHOB",
+    "NPHI",
+    "DTC",
+    "RDEP",
+    "RMED",
+    "PEF",
+    "CALI"
+  ]
+}

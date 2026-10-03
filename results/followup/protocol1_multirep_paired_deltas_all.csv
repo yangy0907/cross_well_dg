@@ -1,0 +1,5 @@
+split_mode,contrast,left,right,n_closed_reps,delta_macro_mean,delta_macro_std,delta_macro_wins,delta_worst_fixed_mean,delta_worst_fixed_std,delta_worst_fixed_wins,note
+well_id,HN-Global,lgbm_hybrid_norel,lgbm_global,18,0.0316489738381462,0.0391102891572549,15,0.0118727888066117,0.0244866268727593,13,"Overlapping Protocol-1 reps; sample std is split sensitivity, not population SE"
+well_id,Hybrid-HN,lgbm_hybrid,lgbm_hybrid_norel,18,0.0087686968378074,0.0183956807313843,12,-0.0040399902747019,0.0254130163619583,8,"Overlapping Protocol-1 reps; sample std is split sensitivity, not population SE"
+parent_grouped,HN-Global,lgbm_hybrid_norel,lgbm_global,18,0.0309662238363548,0.0348112939391639,16,0.0043585820013283,0.0338430383002987,11,"Overlapping Protocol-1 reps; sample std is split sensitivity, not population SE"
+parent_grouped,Hybrid-HN,lgbm_hybrid,lgbm_hybrid_norel,18,0.0043738622599721,0.0211191246214468,13,0.0056940485712376,0.0161896736033742,13,"Overlapping Protocol-1 reps; sample std is split sensitivity, not population SE"

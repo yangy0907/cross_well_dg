@@ -1,0 +1,10 @@
+study,param,n_rows,macro_f1,worst_well_f1,pipeline_version,seconds
+reference_hybrid_while,full_expanding,220839,0.43335088815671335,0.20476192957385275,r3_fullcurve_stats_20260930,
+early_bit_window,metres_lt_50,909,0.3571804773974138,0.0,r3_fullcurve_stats_20260930,
+early_bit_window,metres_lt_100,2480,0.4258449995817419,0.0,r3_fullcurve_stats_20260930,
+early_bit_window,metres_lt_200,5647,0.33371792868041816,0.0,r3_fullcurve_stats_20260930,
+early_bit_window,metres_lt_500,16882,0.31181054105657996,0.14554771925771046,r3_fullcurve_stats_20260930,
+sliding_causal_window,cap_50,220839,0.44466173811156584,0.2155826271418458,r3_fullcurve_stats_20260930,996.73
+sliding_causal_window,cap_100,220839,0.43160705569407365,0.2014709348025124,r3_fullcurve_stats_20260930,577.14
+sliding_causal_window,cap_500,220839,0.4602181774708528,0.17632422659554722,r3_fullcurve_stats_20260930,1036.7
+sliding_causal_window,cap_full,220839,0.42476087705854576,0.20072769562302906,r3_fullcurve_stats_20260930,9542.98

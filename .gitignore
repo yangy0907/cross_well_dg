@@ -1,0 +1,65 @@
+# --- env / cache ---
+.venv/
+venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+tmp/
+*.tmp
+.DS_Store
+Thumbs.db
+
+# --- logs & local run noise ---
+*.log
+results/run_*.log
+results/compile_*.log
+results/analyze_*.log
+results/confidence_sensitivity.log
+results/paper_figures/case_*.txt
+results/paper_figures/case_log*.txt
+results/archive_smoke20_*
+results/.run_experiment.lock
+results/.run_experiment.lock.*
+
+# --- raw / heavy processed data (regenerate via prepare) ---
+# Parquet tables are rebuilt by `py run_experiment.py prepare` and hashed in
+# summary CSVs / RELEASE_MANIFEST. Keep them local by default; release archives
+# should ship them (or a Zenodo deposit) with SHA-256 side-cars.
+data/raw/
+data/processed/*.parquet
+data/processed/*.feather
+data/processed/*.pkl
+!data/processed/*.sha256
+!data/processed/README.md
+
+# --- manuscript kept local only (not published on GitHub) ---
+paper/
+
+# --- optional local notes ---
+*.swp
+*~
+*.bak
+*.bak_*
+RELEASE_MANIFEST.json
+
+# Keep results CSVs, followup tables, and per-run detail JSON (well/class rows)
+# for independent worst-well / figure verification. Ignore model dumps only.
+# results/details_*.json  # tracked for the submission archive
+results/**/*.pkl
+results/**/*.joblib
+results/**/*.err
+results/**/*.pid
+results/archive_pre_*/
+results/followup/archive_*/
+results/followup/_launch*
+results/followup/_resume*
+results/followup/matched_leakage_*_code_snapshot/
+results/followup/shutdown_after_success.txt
+results/multirep/archive_*/
+results/multirep/clean_rerun.*
+results/followup/archive_pre_r2/**
+!results/**/archive_pre_r2/README.md

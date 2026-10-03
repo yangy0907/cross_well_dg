@@ -1,0 +1,35 @@
+{
+  "n_rows_curves_all": 2337639,
+  "n_rows_labeled": 1431383,
+  "label_frac_corpus": 0.6123199518830752,
+  "n_wells": 118,
+  "n_classes": 12,
+  "label_frac_well_mean": 0.6226922913692046,
+  "label_frac_well_min": 0.09182882552115204,
+  "label_frac_well_max": 0.9986982395239276,
+  "wells_label_frac_lt_1": 118,
+  "blocks": [
+    "15",
+    "16",
+    "17",
+    "25",
+    "26",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "7"
+  ],
+  "parse_errors": [],
+  "stats_support": "full_curve",
+  "paths": {
+    "curves_all": "D:\\工作空间\\测井\\cross_well_dg\\data\\processed\\curves_all.parquet",
+    "labeled": "D:\\工作空间\\测井\\cross_well_dg\\data\\processed\\labeled.parquet",
+    "label_coverage_by_well": "D:\\工作空间\\测井\\cross_well_dg\\data\\processed\\label_coverage_by_well.csv",
+    "well_summary": "D:\\工作空间\\测井\\cross_well_dg\\data\\processed\\well_summary.csv"
+  }
+}

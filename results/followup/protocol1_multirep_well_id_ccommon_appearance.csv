@@ -1,0 +1,12 @@
+split_mode,class_name,n_closed_splits_with_test_support,n_closed_splits
+well_id,Anhydrite,12,18
+well_id,Chalk,15,18
+well_id,Coal,18,18
+well_id,Dolomite,18,18
+well_id,Halite,10,18
+well_id,Limestone,18,18
+well_id,Marl,18,18
+well_id,Sandstone,18,18
+well_id,Sandstone/Shale,18,18
+well_id,Shale,18,18
+well_id,Tuff,18,18

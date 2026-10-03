@@ -1,0 +1,24 @@
+# LOWO with Global-LGBM as strong inductive baseline
+seed: 42
+seeds: [42]
+max_wells: null
+
+methods:
+  - lgbm_global
+  - lgbm_wellnorm
+  - lgbm_hybrid
+  - lgbm_hybrid_smooth
+  - lgbm_hybrid_plus
+
+protocol1:
+  enabled: false
+
+protocol2:
+  enabled: false
+
+protocol3:
+  enabled: true
+  max_targets: 6
+  selection: spaced
+
+naive_leakage_baseline: false
