@@ -1,7 +1,7 @@
 {
   "title": "cross_well_dg: Cross-well lithofacies evaluation protocols under domain shift (FORCE 2020)",
   "upload_type": "software",
-  "description": "CPU-reproducible, leakage-restricted evaluation protocols and baselines for cross-well lithofacies classification on the FORCE 2020 well-log corpus. Includes Python pipeline (data preparation, Protocol-1/2/3, Hybrid / CORAL models), configs, well-split definitions, experiment CSV/JSON summaries, figure scripts, and GSE manuscript sources. Raw FORCE LAS files are not redistributed; cite the FORCE Zenodo release (10.5281/zenodo.4351156).",
+  "description": "CPU-reproducible, leakage-restricted evaluation protocols and baselines for cross-well lithofacies classification on the FORCE 2020 well-log corpus. Includes Python pipeline (data preparation, Protocol-1/2/3, Hybrid / CORAL models), configs, well-split definitions, experiment CSV/JSON summaries, figure scripts and release manifests. Manuscript LaTeX/PDF are journal-only and are not redistributed here. Raw FORCE LAS files are not redistributed; cite the FORCE Zenodo release (10.5281/zenodo.4351156).",
   "creators": [
     {
       "name": "Yang, Yun",

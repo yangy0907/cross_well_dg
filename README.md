@@ -128,7 +128,7 @@ Lithofacies data: FORCE 2020 Machine Learning competition
 Bormann et al. 2020 — https://github.com/bolgebrygg/Force-2020-Machine-Learning-competition  
 Zenodo: https://doi.org/10.5281/zenodo.4351156
 
-Software archive: private Git remote with the corresponding author at submission; public Zenodo-tagged release planned at camera-ready (interim review access on request).  
+Software archive: public GitHub repository at https://github.com/yangy0907/cross_well_dg (commit `4f0a0ac`, branch `main`); Zenodo-tagged release planned at camera-ready.  
 See `RELEASE_CHECKLIST.md` for tagging a clean tree and depositing on Zenodo at camera-ready. Metadata stub: `.zenodo.json`.
 
-Primary Protocol-1 multi-seed means use **closed-set seeds 42/43/45**; seed 44 is an open-set stress with no rejection mechanism.
+Primary Protocol-1 multi-seed means use the locked **20-seed list (18 closed / 2 open)**; historical closed-set seeds 42/43/45 are SI / acceptance-record contrast only.
