@@ -1,0 +1,23 @@
+# LOWO sensitivity: alternate spaced target wells
+seed: 42
+seeds: [42]
+max_wells: null
+
+methods:
+  - lgbm_wellnorm
+  - lgbm_hybrid
+  - lgbm_hybrid_smooth
+  - lgbm_hybrid_plus
+
+protocol1:
+  enabled: false
+
+protocol2:
+  enabled: false
+
+protocol3:
+  enabled: true
+  max_targets: 6
+  selection: spaced_alt
+
+naive_leakage_baseline: false

@@ -1,0 +1,5 @@
+method,macro_f1,well_macro_f1_mean,worst_well_f1,feature_mode,use_relative_depth,well_z_mode,seconds,pipeline_version
+lgbm_global,0.4039949436263344,0.378048487171704,0.14410015740194013,global,False,full,130.47,r3_fullcurve_stats_20260926
+lgbm_wellnorm,0.29275053314699445,0.3937957909437981,0.16473886348314926,wellnorm,True,full,119.87,r3_fullcurve_stats_20260926
+lgbm_hybrid,0.41132546206357484,0.4324617728753123,0.21688390139533245,hybrid,True,full,126.1,r3_fullcurve_stats_20260926
+lgbm_hybrid_while,0.43335088815671335,0.41459812887432246,0.20476192957385275,hybrid,False,causal,231.12,r3_fullcurve_stats_20260926

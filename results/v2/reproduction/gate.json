@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "tolerance": 1e-10,
+  "checks": {
+    "macro_f1": {
+      "expected": 0.4039949436263344,
+      "actual": 0.4039949436263344
+    },
+    "accuracy": {
+      "expected": 0.6118167533814227,
+      "actual": 0.6118167533814227
+    },
+    "weighted_f1": {
+      "expected": 0.6310601683714099,
+      "actual": 0.6310601683714099
+    },
+    "fixed_worst_well_f1": {
+      "expected": 0.07860008585560371,
+      "actual": 0.07860008585560371
+    },
+    "fixed_worst10pct_well_f1": {
+      "expected": 0.08933027078995384,
+      "actual": 0.08933027078995384
+    }
+  },
+  "source_hashes": {
+    "constants.py": "1c831f7120221bd7e4e49dc06c302eee4c7b0f97100af85772e5dcd9acfac7b3",
+    "features.py": "3cab20aa068070c87e551ae53776bc2dabd0c771f761cbc7b7c38322779f3797",
+    "metrics.py": "d4186d0ae3700ce679d0af5a8c42eaf82c8f2d7bfa08eca1557daf46e84931d7",
+    "models.py": "25ef229d7e23be7c71448e79d865fec7e813131e04996d5e581a65f6e10d6e8b",
+    "train.py": "3bced107b0d7ae026a955cbf0a21a0a6279d7229c28a7635d4fe4d7e0ecf405b"
+  }
+}

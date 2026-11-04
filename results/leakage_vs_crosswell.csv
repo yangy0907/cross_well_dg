@@ -1,0 +1,3 @@
+setting,macro_f1,worst_well_f1
+naive_depth_split,0.7851454564504318,0.3371576675377329
+cross_well_best(lgbm_global),0.3960518703678197,0.1216911780744045

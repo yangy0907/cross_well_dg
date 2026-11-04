@@ -1,0 +1,29 @@
+# Major-revision re-run: P1 seed42 with fixed metrics + source-only MLP + per-well Sim
+seed: 42
+seeds: [42]
+max_wells: null
+
+methods:
+  - lgbm_global
+  - lgbm_wellnorm
+  - lgbm_hybrid
+  - lgbm_hybrid_smooth
+  - lgbm_hybrid_sim
+  - lgbm_hybrid_plus
+  - lgbm_hybrid_sim_perwell
+  - rf_global
+  - mlp_source_only
+  - mlp_coral_uda
+
+protocol1:
+  enabled: true
+  train_frac: 0.70
+  val_frac: 0.15
+
+protocol2:
+  enabled: false
+
+protocol3:
+  enabled: false
+
+naive_leakage_baseline: true

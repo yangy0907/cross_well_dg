@@ -1,0 +1,19 @@
+{
+  "legacy_thread_equivalence": true,
+  "metrics": {
+    "macro": {
+      "v1_legacy": 0.29275053314699445,
+      "legacy_8threads": 0.29275053314699445,
+      "raw_mask_8threads": 0.3556510689681453,
+      "mask_delta_same_threads": 0.06290053582115085
+    },
+    "worst_fixed": {
+      "v1_legacy": 0.10451895999471052,
+      "legacy_8threads": 0.10451895999471052,
+      "raw_mask_8threads": 0.09891346820771542,
+      "mask_delta_same_threads": -0.005605491786995098
+    }
+  },
+  "scope": "One diagnostic seed. Not a multi-seed significance test.",
+  "config_hash": "2c8bc057d9cc6e67dfa70697b37e2d734453b225041dc04ea94484fd802dd4aa"
+}

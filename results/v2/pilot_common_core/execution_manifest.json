@@ -1,0 +1,91 @@
+{
+  "execution_fingerprint": "d30d9a98158d2ca8f8838712ef4e64c5c3243fe2671db442e7f899e42b0ffb0b",
+  "source_hashes": {
+    "src\\train.py": "73ec34fbec71a33a1957c4b9c19ab37ecd36f9adc8156bc0f659a00181e1bc93",
+    "src\\features.py": "f4ca7196ba7cbf81b4eac942674c970d42cdb7a0da2b60666693d175e025ce5a",
+    "src\\models.py": "25ef229d7e23be7c71448e79d865fec7e813131e04996d5e581a65f6e10d6e8b",
+    "src\\metrics.py": "d4186d0ae3700ce679d0af5a8c42eaf82c8f2d7bfa08eca1557daf46e84931d7",
+    "src\\constants.py": "1c831f7120221bd7e4e49dc06c302eee4c7b0f97100af85772e5dcd9acfac7b3",
+    "src\\provenance.py": "dc97526f46830b5305dbfd0968df0c4fe4d3486299bc7e9ad65eace5f6c553ee",
+    "scripts\\v2_pilot_common_core.py": "371c941e2efd6e2e862575f5933e7025eb97b5db9184aa6beb64605f2721ab29",
+    "configs\\v2_pilot_common_core.yaml": "e6af5b6ce4726d21dd239d396b4d563f14d34c3821e3f6d34f075406dae28ab7",
+    "requirements.lock.txt": "31bc953b67ca817566856e70fe9f19dd147ec63b298c007fa2d781bf35102f29",
+    "data/splits/protocol1_seed42.json": "5decfdca1877f044f3d16dc9476cda7405deae345bc554a591305f57dc981a3c",
+    "data/splits/protocol1_seed43.json": "991cfd2956c604d8a152ed2a26f4bc3558586e65a47eaffb16240c7d6e2c880a",
+    "data/splits/protocol1_seed44.json": "ef35974581c7c6c98a8e1c8c027929a8bef2faf4a424e8ca25377977d5677017",
+    "data/splits/protocol1_seed45.json": "6a00ce3131fa6768076de4a7bc2087472a871503f4a313b5b31b7932b2c8eb2f",
+    "data/processed/labeled.parquet": "43041111a78dd4726423d9f43fb9a3cc00d7284ebd9c49071c459697b99c0e87",
+    "data/processed/curves_all.parquet": "91c87c5b4f834397daa00b01ae727b059675863211f044645de62d451cfb8c46"
+  },
+  "config": {
+    "study": "v2_pilot_common_core_20261103",
+    "seeds": [
+      42,
+      43,
+      44,
+      45
+    ],
+    "methods": [
+      "lgbm_global",
+      "lgbm_wellnorm",
+      "lgbm_hybrid_norel",
+      "lgbm_hybrid"
+    ],
+    "core4": [
+      "GR",
+      "RHOB",
+      "NPHI",
+      "DTC"
+    ],
+    "full16": [
+      "GR",
+      "RHOB",
+      "NPHI",
+      "DTC",
+      "DTS",
+      "PEF",
+      "CALI",
+      "RDEP",
+      "RMED",
+      "RSHA",
+      "RXO",
+      "SP",
+      "ROP",
+      "DRHO",
+      "BS",
+      "MUDWEIGHT"
+    ],
+    "split_mode": "well_id",
+    "split_source": "existing data/splits/protocol1_seed{seed}.json",
+    "missing_mask_support": "raw_observable",
+    "new_fit_schedule": {
+      "core4": [
+        "lgbm_global",
+        "lgbm_wellnorm",
+        "lgbm_hybrid_norel",
+        "lgbm_hybrid"
+      ],
+      "full16": [
+        "lgbm_wellnorm"
+      ]
+    },
+    "full16_reference_methods": [
+      "lgbm_global",
+      "lgbm_hybrid_norel",
+      "lgbm_hybrid"
+    ],
+    "reference_policy": "reuse v1 saved results only after feature-equivalence tests and reproduction gate",
+    "n_jobs": 8,
+    "n_estimators": 180,
+    "early_stopping": "source_validation_multiclass_logloss_patience30",
+    "training_rows": "full original labelled training split, identical between curve sets",
+    "missing_rows": "retain and train-median impute, never restrict to complete-case rows",
+    "closed_rule": "zero test labels unseen in source training",
+    "output_dir": "results/v2/pilot_common_core",
+    "interpretation": "three closed split sensitivities plus one open stress, no population p-values"
+  },
+  "started_at": "2026-11-03T16:20:15",
+  "python": "3.11.5 (tags/v3.11.5:cce6ba9, Aug 24 2023, 14:38:34) [MSC v.1936 64 bit (AMD64)]",
+  "n_workers": 2,
+  "interpretation": "Exploratory split sensitivity, not population inference; full16 non-WellNorm references are not new fits."
+}

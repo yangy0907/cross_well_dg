@@ -1,0 +1,15 @@
+bin,n_rows,macro_f1,worst_well_f1,pipeline_version
+"n_prefix[0,10)",9,0.0,0.0,r3_fullcurve_stats_20260930
+"n_prefix[10,50)",40,0.0,0.0,r3_fullcurve_stats_20260930
+"n_prefix[50,100)",57,0.5,0.0,r3_fullcurve_stats_20260930
+"n_prefix[100,500)",1581,0.42551282126078355,0.0,r3_fullcurve_stats_20260930
+"n_prefix[500,1000000000)",219152,0.4335625297871067,0.20223137277856387,r3_fullcurve_stats_20260930
+"metres[0,10)",66,0.0,0.0,r3_fullcurve_stats_20260930
+"metres[10,50)",846,0.3717299605498597,0.0,r3_fullcurve_stats_20260930
+"metres[50,100)",1572,0.4661681985703456,0.0,r3_fullcurve_stats_20260930
+"metres[100,500)",14401,0.31023288992214976,0.13357103178546673,r3_fullcurve_stats_20260930
+"metres[500,1000000000)",203954,0.4360872049309816,0.21239385183405987,r3_fullcurve_stats_20260930
+coldstart_min_prefix>=0_coverage,220839,1.0,,r3_fullcurve_stats_20260930
+coldstart_min_prefix>=10_coverage,220830,0.9999592463287734,,r3_fullcurve_stats_20260930
+coldstart_min_prefix>=50_coverage,220790,0.9997781189010999,,r3_fullcurve_stats_20260930
+coldstart_min_prefix>=100_coverage,220733,0.9995200123166651,,r3_fullcurve_stats_20260930

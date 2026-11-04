@@ -1,0 +1,30 @@
+study: v3_relative_depth_validation_20261103
+# Fixed before inspecting any new fitted score; keep all seeds, including open cases.
+seeds: [20261103, 20261104, 20261105]
+grouping: parent_grouped
+train_frac: 0.70
+val_frac: 0.15
+curve_sets:
+  core4: [GR, RHOB, NPHI, DTC]
+  full16: [GR, RHOB, NPHI, DTC, DTS, PEF, CALI, RDEP, RMED, RSHA, RXO, SP, ROP, DRHO, BS, MUDWEIGHT]
+methods: [lgbm_hybrid_norel, lgbm_hybrid]
+raw_missingness_mask: true
+n_jobs: 8
+n_workers: 2
+n_estimators: 180
+gate: {seed: 42, curve_set: core4, method: lgbm_hybrid}
+boundary_crops:
+  - {name: baseline, top: 0.0, bottom: 0.0}
+  - {name: top10, top: 0.1, bottom: 0.0}
+  - {name: bottom10, top: 0.0, bottom: 0.1}
+  - {name: both10, top: 0.1, bottom: 0.1}
+  - {name: top20, top: 0.2, bottom: 0.0}
+  - {name: bottom20, top: 0.0, bottom: 0.2}
+  - {name: both20, top: 0.2, bottom: 0.2}
+boundary_rule: Retain only labelled rows inside the cropped interval. Compare baseline-Hybrid, changed-relative-depth-Hybrid and Hybrid-norel on exactly those same rows. Hold all non-relative-depth features fixed.
+interpretation: Controlled inference sensitivity of the relative-depth coordinate, not a physical incomplete-log experiment; full-curve well-z moments are deliberately held fixed.
+primary_contrast: (Hybrid-Hybrid_norel)_core4 minus (Hybrid-Hybrid_norel)_full16, separately within each new split.
+regime_rule: Test labels absent from training imply open_set. Execute every fixed seed; no score-based selection or replacements.
+uncertainty: Descriptive paired effects and split SD only. Same corpus and overlapping source/test wells; no independent-corpus or population-inference claim.
+output_dir: results/v3/relative_depth_validation_run2
+prior_failed_gate_fit_count: 1

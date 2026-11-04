@@ -1,0 +1,21 @@
+# Extra Protocol-1 baselines: RF + rare-class boost
+seed: 42
+seeds: [42]
+max_wells: null
+
+methods:
+  - rf_global
+  - lgbm_hybrid_rareboost
+
+protocol1:
+  enabled: true
+  train_frac: 0.70
+  val_frac: 0.15
+
+protocol2:
+  enabled: false
+
+protocol3:
+  enabled: false
+
+naive_leakage_baseline: false

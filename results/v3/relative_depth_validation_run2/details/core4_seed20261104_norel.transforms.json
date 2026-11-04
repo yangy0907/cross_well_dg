@@ -1,0 +1,43 @@
+{
+  "feature_names": [
+    "GR_raw",
+    "RHOB_raw",
+    "NPHI_raw",
+    "DTC_raw",
+    "GR_wn",
+    "RHOB_wn",
+    "NPHI_wn",
+    "DTC_wn",
+    "GR_isna",
+    "RHOB_isna",
+    "NPHI_isna",
+    "DTC_isna"
+  ],
+  "global_median": {
+    "GR": 71.343605042,
+    "RHOB": 2.3421933651,
+    "NPHI": 0.3246164918,
+    "DTC": 107.963134765
+  },
+  "global_std": {
+    "GR": 35.03629061155761,
+    "RHOB": 0.2457440796130525,
+    "NPHI": 0.1305835296586976,
+    "DTC": 28.968918660209315
+  },
+  "imputer_statistics": [
+    0.0,
+    0.0,
+    0.0,
+    -2.452776598770327e-16,
+    0.09316374961548798,
+    0.0,
+    0.0,
+    -0.12004740439778194,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "context_source": "data/processed/curves_all.parquet"
+}

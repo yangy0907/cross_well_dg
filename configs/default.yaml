@@ -1,0 +1,29 @@
+# default experiment config
+seed: 42
+seeds: [42]  # add 43,44 later for variance; single seed first for CPU
+max_wells: null  # set e.g. 20 for smoke test
+
+methods:
+  - lgbm_global
+  - lgbm_wellnorm
+  - lgbm_conf
+  - lgbm_full
+  - lgbm_groupdro
+  - mlp_coral_uda
+
+protocol1:
+  enabled: true
+  train_frac: 0.70
+  val_frac: 0.15
+
+protocol2:
+  enabled: true
+  holdout_blocks:
+    - ["15"]
+    - ["35"]
+
+protocol3:
+  enabled: true
+  max_targets: 6
+
+naive_leakage_baseline: true

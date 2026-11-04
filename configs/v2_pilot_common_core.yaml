@@ -1,0 +1,22 @@
+# Locked before the first new pilot fit. Exploratory, not preregistered.
+study: v2_pilot_common_core_20261103
+seeds: [42, 43, 44, 45]
+methods: [lgbm_global, lgbm_wellnorm, lgbm_hybrid_norel, lgbm_hybrid]
+core4: [GR, RHOB, NPHI, DTC]
+full16: [GR, RHOB, NPHI, DTC, DTS, PEF, CALI, RDEP, RMED, RSHA, RXO, SP, ROP, DRHO, BS, MUDWEIGHT]
+split_mode: well_id
+split_source: existing data/splits/protocol1_seed{seed}.json
+missing_mask_support: raw_observable
+new_fit_schedule:
+  core4: [lgbm_global, lgbm_wellnorm, lgbm_hybrid_norel, lgbm_hybrid]
+  full16: [lgbm_wellnorm]
+full16_reference_methods: [lgbm_global, lgbm_hybrid_norel, lgbm_hybrid]
+reference_policy: reuse v1 saved results only after feature-equivalence tests and reproduction gate
+n_jobs: 8
+n_estimators: 180
+early_stopping: source_validation_multiclass_logloss_patience30
+training_rows: full original labelled training split, identical between curve sets
+missing_rows: retain and train-median impute, never restrict to complete-case rows
+closed_rule: zero test labels unseen in source training
+output_dir: results/v2/pilot_common_core
+interpretation: three closed split sensitivities plus one open stress, no population p-values

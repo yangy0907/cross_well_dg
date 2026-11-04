@@ -1,0 +1,8 @@
+{
+  "cause": "Float32 exported FeatureBundle depths do not exactly reconstruct float64-engineered relative depth.",
+  "resolution": "Reconstruct features and boundary coordinates from original float64 dataframe depths.",
+  "new_fit_count": 0,
+  "all_twelve_models_previously_saved": true,
+  "full_baseline_predictions_identical": true,
+  "source_sha256": "bafe58affba1dd0287fb166c4582625645f6c9d79f58b06d45940e58f5e09458"
+}

@@ -1,0 +1,24 @@
+# 2x2 ablation companion: WellNorm without relative depth (Protocol-1 only).
+# ABSORBED into configs/paper_r3_release.yaml / paper_r3_full.yaml.
+# Do NOT run this after the release schedule into the same summary CSV.
+# Kept only for historical / partial debugging:
+#   py run_experiment.py run --config configs/paper_r3_wellnorm_norel.yaml --protocol 1 --allow-partial --skip-naive
+seed: 42
+seeds: [42, 43, 44, 45]
+max_wells: null
+
+methods:
+  - lgbm_wellnorm_norel
+
+protocol1:
+  enabled: true
+  train_frac: 0.70
+  val_frac: 0.15
+
+protocol2:
+  enabled: false
+
+protocol3:
+  enabled: false
+
+naive_leakage_baseline: false

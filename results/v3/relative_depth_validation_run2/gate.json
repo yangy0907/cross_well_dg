@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "execution_fingerprint": "babb846292b17798637b54686c674e93ce2113d1790c1a18450e6ea0e6173d16",
+  "checks": {
+    "macro_f1": {
+      "reference": 0.3802776775777771,
+      "new": 0.3802776775777771,
+      "absolute_error": 0.0
+    },
+    "accuracy": {
+      "reference": 0.5938715534846652,
+      "new": 0.5938715534846652,
+      "absolute_error": 0.0
+    },
+    "weighted_f1": {
+      "reference": 0.6446565829224439,
+      "new": 0.6446565829224439,
+      "absolute_error": 0.0
+    },
+    "worst_well_f1": {
+      "reference": 0.11139011578724922,
+      "new": 0.11139011578724922,
+      "absolute_error": 0.0
+    },
+    "worst10pct_well_f1": {
+      "reference": 0.13436060055816607,
+      "new": 0.13436060055816607,
+      "absolute_error": 0.0
+    }
+  },
+  "fit_executions": 1
+}

@@ -1,0 +1,44 @@
+# Protocol-1 multi-rep Round-3 schedule (core 6 × 20 seeds × 2 split modes).
+# Single config_hash for results/multirep/protocol1_multirep_*_core6.csv rows.
+# Do NOT mix with the full 16-method paper_r3_release.yaml suite.
+#
+# Closed-set a priori (locked): a seed enters primary aggregation iff the test
+# partition has zero depths whose facies are absent from training
+# (n_test_unseen_label_kept == 0); otherwise open-set stress bucket.
+#
+# Run (clean tree; see RELEASE_CHECKLIST.md):
+#   py -u scripts/protocol1_multirep_r3.py --split-mode both
+# Resume-safe; use --force only to discard prior rows under the same pipeline.
+seed: 42
+seeds: [42, 43, 44, 45, 101, 107, 113, 127, 131, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193]
+max_wells: null
+
+methods:
+  - lgbm_global
+  - lgbm_wellnorm
+  - lgbm_hybrid_norel
+  - lgbm_hybrid
+  - lgbm_hybrid_while
+  - lgbm_hybrid_smooth
+
+closed_set_rule: a_priori_zero_test_unseen_label_depths
+
+protocol1:
+  enabled: true
+  train_frac: 0.70
+  val_frac: 0.15
+  split_modes:
+    - well_id
+    - parent_grouped
+
+protocol2:
+  enabled: false
+
+protocol3:
+  enabled: false
+
+naive_leakage_baseline: false
+
+outputs:
+  multirep_dir: results/multirep
+  followup_dir: results/followup

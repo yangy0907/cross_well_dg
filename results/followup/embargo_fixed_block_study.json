@@ -1,0 +1,50 @@
+{
+  "n_ref": 986098,
+  "n_train_wells": 83,
+  "n_val_wells": 18,
+  "train_val_disjoint": true,
+  "pipeline_version": "r3_fullcurve_stats_20260930",
+  "config_hash": "8602348e06353cc9206350443624798d5847f2b7c61da21aef3aff0e7652942c",
+  "summary": [
+    {
+      "embargo_m": 0.0,
+      "macro_mean": 0.4245102068503134,
+      "macro_std": 0.005519734338953026,
+      "worst_mean": 0.1464355086541234,
+      "tv_mean": 0.14534483413042223,
+      "pipeline_version": "r3_fullcurve_stats_20260930"
+    },
+    {
+      "embargo_m": 1.0,
+      "macro_mean": 0.41625676631949693,
+      "macro_std": 0.0053069030012095645,
+      "worst_mean": 0.1363052692782606,
+      "tv_mean": 0.14543640717894274,
+      "pipeline_version": "r3_fullcurve_stats_20260930"
+    },
+    {
+      "embargo_m": 5.0,
+      "macro_mean": 0.42106284023181867,
+      "macro_std": 0.005406723958688726,
+      "worst_mean": 0.13957000275758588,
+      "tv_mean": 0.14531948168066572,
+      "pipeline_version": "r3_fullcurve_stats_20260930"
+    },
+    {
+      "embargo_m": 10.0,
+      "macro_mean": 0.4197696081555741,
+      "macro_std": 0.010231738002567272,
+      "worst_mean": 0.13451368698071858,
+      "tv_mean": 0.14543214796738366,
+      "pipeline_version": "r3_fullcurve_stats_20260930"
+    },
+    {
+      "embargo_m": 20.0,
+      "macro_mean": 0.41033733793709404,
+      "macro_std": 0.003951151191196686,
+      "worst_mean": 0.10491151113703064,
+      "tv_mean": 0.14544015934150673,
+      "pipeline_version": "r3_fullcurve_stats_20260930"
+    }
+  ]
+}

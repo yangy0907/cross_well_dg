@@ -1,0 +1,7 @@
+{
+  "max_identity_error_z": 5.910733127162262e-15,
+  "n_curve_records": 2460,
+  "support": "Non-missing labelled samples; each curve uses its own observed-class proportions.",
+  "identity": "target mean - source mean = sum((q_target-q_source)*mu_source) + sum(q_target*(mu_target-mu_source))",
+  "limitations": "Uses target ground-truth labels post-hoc. Within-class shifts include fluid, geology, measurement, sampling and label differences. Not a causal measurement-drift estimate."
+}

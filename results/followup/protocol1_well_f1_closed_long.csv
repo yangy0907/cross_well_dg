@@ -1,0 +1,307 @@
+seed,method,method_key,well_id,n,macro_f1,taxonomy
+42,Global,lgbm_global,31/5-4 S,11315,0.14410015740194013,well_true
+42,Global,lgbm_global,35/11-12,19112,0.19723189271158084,well_true
+42,Global,lgbm_global,25/5-1,18473,0.2610401444616375,well_true
+42,Global,lgbm_global,35/8-4,2709,0.2751662532418359,well_true
+42,Global,lgbm_global,25/7-2,23879,0.29783723650889865,well_true
+42,Global,lgbm_global,31/6-5,11098,0.3160870733642513,well_true
+42,Global,lgbm_global,29/6-1,24468,0.3455293276716496,well_true
+42,Global,lgbm_global,25/5-3,11324,0.3530869842739042,well_true
+42,Global,lgbm_global,17/11-1,20099,0.35945711671054836,well_true
+42,Global,lgbm_global,16/7-5,15590,0.4252898921297028,well_true
+42,Global,lgbm_global,16/2-6,9138,0.4261074459648654,well_true
+42,Global,lgbm_global,16/10-2,2437,0.4317512128424394,well_true
+42,Global,lgbm_global,31/2-19 S,16705,0.46743694593220586,well_true
+42,Global,lgbm_global,16/2-16,10025,0.46887187305582934,well_true
+42,Global,lgbm_global,31/6-8,9533,0.4824558973387785,well_true
+42,Global,lgbm_global,34/11-1,4226,0.48338331381768507,well_true
+42,Global,lgbm_global,16/2-11 A,10708,0.6919915144912151,well_true
+42,WellNorm,lgbm_wellnorm,17/11-1,20099,0.16473886348314926,well_true
+42,WellNorm,lgbm_wellnorm,31/5-4 S,11315,0.19161809332363597,well_true
+42,WellNorm,lgbm_wellnorm,31/6-5,11098,0.2596876162161361,well_true
+42,WellNorm,lgbm_wellnorm,29/6-1,24468,0.26240826963650665,well_true
+42,WellNorm,lgbm_wellnorm,34/11-1,4226,0.2984159629682551,well_true
+42,WellNorm,lgbm_wellnorm,35/11-12,19112,0.3021256938321269,well_true
+42,WellNorm,lgbm_wellnorm,31/2-19 S,16705,0.37169343743499095,well_true
+42,WellNorm,lgbm_wellnorm,35/8-4,2709,0.39326740540260363,well_true
+42,WellNorm,lgbm_wellnorm,25/7-2,23879,0.3996355770169938,well_true
+42,WellNorm,lgbm_wellnorm,31/6-8,9533,0.430365241249927,well_true
+42,WellNorm,lgbm_wellnorm,25/5-1,18473,0.4534843659474485,well_true
+42,WellNorm,lgbm_wellnorm,16/2-16,10025,0.459029857457795,well_true
+42,WellNorm,lgbm_wellnorm,25/5-3,11324,0.4672979215182532,well_true
+42,WellNorm,lgbm_wellnorm,16/7-5,15590,0.5169451128971855,well_true
+42,WellNorm,lgbm_wellnorm,16/10-2,2437,0.5308804833866357,well_true
+42,WellNorm,lgbm_wellnorm,16/2-6,9138,0.5322142692609598,well_true
+42,WellNorm,lgbm_wellnorm,16/2-11 A,10708,0.6607202750119644,well_true
+42,Hybrid,lgbm_hybrid,31/5-4 S,11315,0.21688390139533245,well_true
+42,Hybrid,lgbm_hybrid,35/11-12,19112,0.3064885931963997,well_true
+42,Hybrid,lgbm_hybrid,17/11-1,20099,0.3092565308664124,well_true
+42,Hybrid,lgbm_hybrid,25/7-2,23879,0.340767338668512,well_true
+42,Hybrid,lgbm_hybrid,31/6-5,11098,0.3606462871945646,well_true
+42,Hybrid,lgbm_hybrid,29/6-1,24468,0.3613197782207083,well_true
+42,Hybrid,lgbm_hybrid,25/5-1,18473,0.391496238733993,well_true
+42,Hybrid,lgbm_hybrid,34/11-1,4226,0.39372175264467946,well_true
+42,Hybrid,lgbm_hybrid,25/5-3,11324,0.4327793663349574,well_true
+42,Hybrid,lgbm_hybrid,16/10-2,2437,0.4342027424350914,well_true
+42,Hybrid,lgbm_hybrid,31/2-19 S,16705,0.454674819443595,well_true
+42,Hybrid,lgbm_hybrid,31/6-8,9533,0.4742182250549713,well_true
+42,Hybrid,lgbm_hybrid,35/8-4,2709,0.4926400110500987,well_true
+42,Hybrid,lgbm_hybrid,16/7-5,15590,0.5319437581522651,well_true
+42,Hybrid,lgbm_hybrid,16/2-6,9138,0.5445332042465777,well_true
+42,Hybrid,lgbm_hybrid,16/2-16,10025,0.5512858462166791,well_true
+42,Hybrid,lgbm_hybrid,16/2-11 A,10708,0.754991745025471,well_true
+42,Hybrid-norel,lgbm_hybrid_norel,31/5-4 S,11315,0.23795811940449338,well_true
+42,Hybrid-norel,lgbm_hybrid_norel,35/11-12,19112,0.27973307304568007,well_true
+42,Hybrid-norel,lgbm_hybrid_norel,17/11-1,20099,0.28691537323549576,well_true
+42,Hybrid-norel,lgbm_hybrid_norel,25/7-2,23879,0.3343571055268643,well_true
+42,Hybrid-norel,lgbm_hybrid_norel,31/6-5,11098,0.3460458780972323,well_true
+42,Hybrid-norel,lgbm_hybrid_norel,29/6-1,24468,0.34977131351378726,well_true
+42,Hybrid-norel,lgbm_hybrid_norel,25/5-1,18473,0.36265794987015926,well_true
+42,Hybrid-norel,lgbm_hybrid_norel,16/10-2,2437,0.42514143862864223,well_true
+42,Hybrid-norel,lgbm_hybrid_norel,25/5-3,11324,0.4274036125041321,well_true
+42,Hybrid-norel,lgbm_hybrid_norel,34/11-1,4226,0.44978157395066737,well_true
+42,Hybrid-norel,lgbm_hybrid_norel,31/2-19 S,16705,0.45784687717050326,well_true
+42,Hybrid-norel,lgbm_hybrid_norel,31/6-8,9533,0.46791892654884765,well_true
+42,Hybrid-norel,lgbm_hybrid_norel,16/2-6,9138,0.4867538100838372,well_true
+42,Hybrid-norel,lgbm_hybrid_norel,16/2-16,10025,0.49948935004217593,well_true
+42,Hybrid-norel,lgbm_hybrid_norel,35/8-4,2709,0.5127543707407551,well_true
+42,Hybrid-norel,lgbm_hybrid_norel,16/7-5,15590,0.5153784843261559,well_true
+42,Hybrid-norel,lgbm_hybrid_norel,16/2-11 A,10708,0.7294119388182936,well_true
+42,Hybrid-while,lgbm_hybrid_while,35/11-12,19112,0.20476192957385275,well_true
+42,Hybrid-while,lgbm_hybrid_while,31/5-4 S,11315,0.22265095475610452,well_true
+42,Hybrid-while,lgbm_hybrid_while,25/5-1,18473,0.309775532713649,well_true
+42,Hybrid-while,lgbm_hybrid_while,31/6-5,11098,0.3428168163385926,well_true
+42,Hybrid-while,lgbm_hybrid_while,29/6-1,24468,0.36383191183775837,well_true
+42,Hybrid-while,lgbm_hybrid_while,17/11-1,20099,0.3639606395673002,well_true
+42,Hybrid-while,lgbm_hybrid_while,16/10-2,2437,0.38321343839508315,well_true
+42,Hybrid-while,lgbm_hybrid_while,25/7-2,23879,0.41145243761422934,well_true
+42,Hybrid-while,lgbm_hybrid_while,34/11-1,4226,0.4511220575271306,well_true
+42,Hybrid-while,lgbm_hybrid_while,25/5-3,11324,0.45417301800219734,well_true
+42,Hybrid-while,lgbm_hybrid_while,16/2-16,10025,0.4715406076798277,well_true
+42,Hybrid-while,lgbm_hybrid_while,31/2-19 S,16705,0.4725768690430588,well_true
+42,Hybrid-while,lgbm_hybrid_while,31/6-8,9533,0.4739706962270635,well_true
+42,Hybrid-while,lgbm_hybrid_while,16/7-5,15590,0.47840780754871953,well_true
+42,Hybrid-while,lgbm_hybrid_while,16/2-6,9138,0.4973903698081618,well_true
+42,Hybrid-while,lgbm_hybrid_while,35/8-4,2709,0.5026707951124673,well_true
+42,Hybrid-while,lgbm_hybrid_while,16/2-11 A,10708,0.6438523091182855,well_true
+42,Hybrid+Smooth,lgbm_hybrid_smooth,31/5-4 S,11315,0.2210795334152703,well_true
+42,Hybrid+Smooth,lgbm_hybrid_smooth,35/11-12,19112,0.3070630082476021,well_true
+42,Hybrid+Smooth,lgbm_hybrid_smooth,17/11-1,20099,0.31002517714938815,well_true
+42,Hybrid+Smooth,lgbm_hybrid_smooth,25/7-2,23879,0.33703417403708624,well_true
+42,Hybrid+Smooth,lgbm_hybrid_smooth,31/6-5,11098,0.36110498566899024,well_true
+42,Hybrid+Smooth,lgbm_hybrid_smooth,29/6-1,24468,0.3635397417611956,well_true
+42,Hybrid+Smooth,lgbm_hybrid_smooth,34/11-1,4226,0.38909622277379363,well_true
+42,Hybrid+Smooth,lgbm_hybrid_smooth,25/5-1,18473,0.3921777287348135,well_true
+42,Hybrid+Smooth,lgbm_hybrid_smooth,16/10-2,2437,0.41020465147210095,well_true
+42,Hybrid+Smooth,lgbm_hybrid_smooth,25/5-3,11324,0.4383406008584329,well_true
+42,Hybrid+Smooth,lgbm_hybrid_smooth,31/2-19 S,16705,0.4522653973255057,well_true
+42,Hybrid+Smooth,lgbm_hybrid_smooth,31/6-8,9533,0.47305263181403284,well_true
+42,Hybrid+Smooth,lgbm_hybrid_smooth,35/8-4,2709,0.498261664546986,well_true
+42,Hybrid+Smooth,lgbm_hybrid_smooth,16/7-5,15590,0.5336130734953454,well_true
+42,Hybrid+Smooth,lgbm_hybrid_smooth,16/2-6,9138,0.5480120461638512,well_true
+42,Hybrid+Smooth,lgbm_hybrid_smooth,16/2-16,10025,0.5527588039212379,well_true
+42,Hybrid+Smooth,lgbm_hybrid_smooth,16/2-11 A,10708,0.761658455388318,well_true
+43,Global,lgbm_global,34/10-19,12662,0.2518157593207054,well_true
+43,Global,lgbm_global,29/6-1,24468,0.30672486773520896,well_true
+43,Global,lgbm_global,25/11-19 S,6975,0.3596837146751854,well_true
+43,Global,lgbm_global,31/4-5,13400,0.36020596443431535,well_true
+43,Global,lgbm_global,29/3-1,24213,0.3610351712922917,well_true
+43,Global,lgbm_global,32/2-1,3049,0.3797119488130485,well_true
+43,Global,lgbm_global,34/4-10 R,3880,0.3823067239527807,well_true
+43,Global,lgbm_global,34/12-1,9350,0.3995543476442547,well_true
+43,Global,lgbm_global,34/7-20,13157,0.40703346499801096,well_true
+43,Global,lgbm_global,15/9-13,18270,0.4167097214974826,well_true
+43,Global,lgbm_global,25/2-7,25131,0.45023492805037185,well_true
+43,Global,lgbm_global,34/3-1 A,2251,0.4517689961744653,well_true
+43,Global,lgbm_global,33/5-2,4091,0.454405590550642,well_true
+43,Global,lgbm_global,31/3-2,10750,0.4751618276986747,well_true
+43,Global,lgbm_global,31/2-21 S,7840,0.47587656806780937,well_true
+43,Global,lgbm_global,31/2-10,9033,0.562892107338559,well_true
+43,Global,lgbm_global,16/2-7,11683,0.567910287919801,well_true
+43,WellNorm,lgbm_wellnorm,34/4-10 R,3880,0.18608880167485023,well_true
+43,WellNorm,lgbm_wellnorm,29/6-1,24468,0.2928076158638176,well_true
+43,WellNorm,lgbm_wellnorm,34/3-1 A,2251,0.2958715476216485,well_true
+43,WellNorm,lgbm_wellnorm,34/10-19,12662,0.3065534089316312,well_true
+43,WellNorm,lgbm_wellnorm,15/9-13,18270,0.3163326015533904,well_true
+43,WellNorm,lgbm_wellnorm,16/2-7,11683,0.3464738124096208,well_true
+43,WellNorm,lgbm_wellnorm,32/2-1,3049,0.35307516736218253,well_true
+43,WellNorm,lgbm_wellnorm,33/5-2,4091,0.36040186210374425,well_true
+43,WellNorm,lgbm_wellnorm,25/11-19 S,6975,0.374135172445398,well_true
+43,WellNorm,lgbm_wellnorm,34/7-20,13157,0.3785478891877348,well_true
+43,WellNorm,lgbm_wellnorm,34/12-1,9350,0.3931073541388496,well_true
+43,WellNorm,lgbm_wellnorm,31/3-2,10750,0.40312951591785334,well_true
+43,WellNorm,lgbm_wellnorm,29/3-1,24213,0.4052588200242858,well_true
+43,WellNorm,lgbm_wellnorm,25/2-7,25131,0.41204755958749567,well_true
+43,WellNorm,lgbm_wellnorm,31/4-5,13400,0.44515578144187795,well_true
+43,WellNorm,lgbm_wellnorm,31/2-10,9033,0.47075735916876105,well_true
+43,WellNorm,lgbm_wellnorm,31/2-21 S,7840,0.4802261657355789,well_true
+43,Hybrid,lgbm_hybrid,34/4-10 R,3880,0.25189294882307384,well_true
+43,Hybrid,lgbm_hybrid,34/10-19,12662,0.33795667069345725,well_true
+43,Hybrid,lgbm_hybrid,33/5-2,4091,0.3500128381536234,well_true
+43,Hybrid,lgbm_hybrid,29/6-1,24468,0.3567397573915607,well_true
+43,Hybrid,lgbm_hybrid,34/3-1 A,2251,0.364874502943001,well_true
+43,Hybrid,lgbm_hybrid,25/11-19 S,6975,0.4062211592390911,well_true
+43,Hybrid,lgbm_hybrid,31/4-5,13400,0.4241914220444139,well_true
+43,Hybrid,lgbm_hybrid,29/3-1,24213,0.4265050913877973,well_true
+43,Hybrid,lgbm_hybrid,32/2-1,3049,0.43138331219279896,well_true
+43,Hybrid,lgbm_hybrid,34/12-1,9350,0.43536618167021357,well_true
+43,Hybrid,lgbm_hybrid,15/9-13,18270,0.4690539770186089,well_true
+43,Hybrid,lgbm_hybrid,34/7-20,13157,0.47175045241944225,well_true
+43,Hybrid,lgbm_hybrid,25/2-7,25131,0.47827094478704396,well_true
+43,Hybrid,lgbm_hybrid,31/2-21 S,7840,0.49920320965650183,well_true
+43,Hybrid,lgbm_hybrid,31/3-2,10750,0.512998486336536,well_true
+43,Hybrid,lgbm_hybrid,16/2-7,11683,0.5293934556356875,well_true
+43,Hybrid,lgbm_hybrid,31/2-10,9033,0.5818342933594978,well_true
+43,Hybrid-norel,lgbm_hybrid_norel,34/4-10 R,3880,0.26897360680242705,well_true
+43,Hybrid-norel,lgbm_hybrid_norel,34/10-19,12662,0.2778421787590481,well_true
+43,Hybrid-norel,lgbm_hybrid_norel,34/3-1 A,2251,0.3379427376745115,well_true
+43,Hybrid-norel,lgbm_hybrid_norel,29/6-1,24468,0.3480278589700753,well_true
+43,Hybrid-norel,lgbm_hybrid_norel,33/5-2,4091,0.35645645563366596,well_true
+43,Hybrid-norel,lgbm_hybrid_norel,25/11-19 S,6975,0.39378604542144013,well_true
+43,Hybrid-norel,lgbm_hybrid_norel,15/9-13,18270,0.43845668445649066,well_true
+43,Hybrid-norel,lgbm_hybrid_norel,34/12-1,9350,0.43908713959258483,well_true
+43,Hybrid-norel,lgbm_hybrid_norel,29/3-1,24213,0.44494449834527,well_true
+43,Hybrid-norel,lgbm_hybrid_norel,32/2-1,3049,0.4480097182571198,well_true
+43,Hybrid-norel,lgbm_hybrid_norel,31/3-2,10750,0.46717486943038766,well_true
+43,Hybrid-norel,lgbm_hybrid_norel,25/2-7,25131,0.48474255837323654,well_true
+43,Hybrid-norel,lgbm_hybrid_norel,31/2-21 S,7840,0.486751771047851,well_true
+43,Hybrid-norel,lgbm_hybrid_norel,31/2-10,9033,0.4880617284137722,well_true
+43,Hybrid-norel,lgbm_hybrid_norel,31/4-5,13400,0.48995062312390036,well_true
+43,Hybrid-norel,lgbm_hybrid_norel,34/7-20,13157,0.5007082201251488,well_true
+43,Hybrid-norel,lgbm_hybrid_norel,16/2-7,11683,0.5749563872104613,well_true
+43,Hybrid-while,lgbm_hybrid_while,34/4-10 R,3880,0.2588093444362162,well_true
+43,Hybrid-while,lgbm_hybrid_while,29/6-1,24468,0.3116045167446987,well_true
+43,Hybrid-while,lgbm_hybrid_while,34/10-19,12662,0.34075321450525725,well_true
+43,Hybrid-while,lgbm_hybrid_while,34/7-20,13157,0.3641276204848345,well_true
+43,Hybrid-while,lgbm_hybrid_while,15/9-13,18270,0.3941071280169063,well_true
+43,Hybrid-while,lgbm_hybrid_while,25/11-19 S,6975,0.3975943368145306,well_true
+43,Hybrid-while,lgbm_hybrid_while,29/3-1,24213,0.4042171267294822,well_true
+43,Hybrid-while,lgbm_hybrid_while,33/5-2,4091,0.41274717776298153,well_true
+43,Hybrid-while,lgbm_hybrid_while,31/4-5,13400,0.435854707045883,well_true
+43,Hybrid-while,lgbm_hybrid_while,25/2-7,25131,0.44574692454077053,well_true
+43,Hybrid-while,lgbm_hybrid_while,34/3-1 A,2251,0.4469138436730426,well_true
+43,Hybrid-while,lgbm_hybrid_while,31/2-21 S,7840,0.44792429088280405,well_true
+43,Hybrid-while,lgbm_hybrid_while,31/3-2,10750,0.4548344808483224,well_true
+43,Hybrid-while,lgbm_hybrid_while,32/2-1,3049,0.4605278441140926,well_true
+43,Hybrid-while,lgbm_hybrid_while,34/12-1,9350,0.4775762079616183,well_true
+43,Hybrid-while,lgbm_hybrid_while,31/2-10,9033,0.5901579959159807,well_true
+43,Hybrid-while,lgbm_hybrid_while,16/2-7,11683,0.7148845294181625,well_true
+43,Hybrid+Smooth,lgbm_hybrid_smooth,34/4-10 R,3880,0.24799952073739492,well_true
+43,Hybrid+Smooth,lgbm_hybrid_smooth,34/10-19,12662,0.33963786382510885,well_true
+43,Hybrid+Smooth,lgbm_hybrid_smooth,33/5-2,4091,0.34116192133310486,well_true
+43,Hybrid+Smooth,lgbm_hybrid_smooth,29/6-1,24468,0.35913670895895367,well_true
+43,Hybrid+Smooth,lgbm_hybrid_smooth,34/3-1 A,2251,0.3663071521049312,well_true
+43,Hybrid+Smooth,lgbm_hybrid_smooth,25/11-19 S,6975,0.3808381479454691,well_true
+43,Hybrid+Smooth,lgbm_hybrid_smooth,31/4-5,13400,0.4244317294698117,well_true
+43,Hybrid+Smooth,lgbm_hybrid_smooth,29/3-1,24213,0.4293058901177483,well_true
+43,Hybrid+Smooth,lgbm_hybrid_smooth,32/2-1,3049,0.4331417651397891,well_true
+43,Hybrid+Smooth,lgbm_hybrid_smooth,15/9-13,18270,0.43772864485983337,well_true
+43,Hybrid+Smooth,lgbm_hybrid_smooth,34/12-1,9350,0.4444927247008915,well_true
+43,Hybrid+Smooth,lgbm_hybrid_smooth,25/2-7,25131,0.483897212024787,well_true
+43,Hybrid+Smooth,lgbm_hybrid_smooth,34/7-20,13157,0.49240547196152107,well_true
+43,Hybrid+Smooth,lgbm_hybrid_smooth,31/3-2,10750,0.49306151606035625,well_true
+43,Hybrid+Smooth,lgbm_hybrid_smooth,31/2-21 S,7840,0.5126850358411511,well_true
+43,Hybrid+Smooth,lgbm_hybrid_smooth,16/2-7,11683,0.520082385174827,well_true
+43,Hybrid+Smooth,lgbm_hybrid_smooth,31/2-10,9033,0.5843428952255499,well_true
+45,Global,lgbm_global,16/1-2,1734,0.23177985132741258,well_true
+45,Global,lgbm_global,25/10-10,9321,0.2612348072452156,well_true
+45,Global,lgbm_global,34/3-3 A,18190,0.2961909763218908,well_true
+45,Global,lgbm_global,25/7-2,23879,0.30798900166109394,well_true
+45,Global,lgbm_global,25/11-24,4195,0.318920117386856,well_true
+45,Global,lgbm_global,25/5-4,13003,0.3281685057595319,well_true
+45,Global,lgbm_global,25/9-1,16111,0.3308899986804752,well_true
+45,Global,lgbm_global,34/4-10 R,3880,0.3318906548559227,well_true
+45,Global,lgbm_global,32/2-1,3049,0.36069843762269665,well_true
+45,Global,lgbm_global,25/10-9,10788,0.390574746755202,well_true
+45,Global,lgbm_global,35/9-7,10677,0.42758522657377956,well_true
+45,Global,lgbm_global,35/9-6 S,13155,0.4285588140107409,well_true
+45,Global,lgbm_global,31/2-21 S,7840,0.4369408098313379,well_true
+45,Global,lgbm_global,35/11-1,15632,0.5066476093122106,well_true
+45,Global,lgbm_global,25/6-2,2925,0.549411919889206,well_true
+45,Global,lgbm_global,34/7-13,3900,0.5551678952453277,well_true
+45,Global,lgbm_global,35/11-11,12844,0.5658352725156631,well_true
+45,WellNorm,lgbm_wellnorm,16/1-2,1734,0.15821352555044804,well_true
+45,WellNorm,lgbm_wellnorm,34/4-10 R,3880,0.21788374623831053,well_true
+45,WellNorm,lgbm_wellnorm,34/3-3 A,18190,0.2392619772348725,well_true
+45,WellNorm,lgbm_wellnorm,25/10-10,9321,0.24893401006002447,well_true
+45,WellNorm,lgbm_wellnorm,25/9-1,16111,0.30068253471363443,well_true
+45,WellNorm,lgbm_wellnorm,25/10-9,10788,0.35347070123913316,well_true
+45,WellNorm,lgbm_wellnorm,32/2-1,3049,0.3633783817477761,well_true
+45,WellNorm,lgbm_wellnorm,34/7-13,3900,0.374665059187653,well_true
+45,WellNorm,lgbm_wellnorm,35/11-1,15632,0.3779459108577414,well_true
+45,WellNorm,lgbm_wellnorm,25/5-4,13003,0.3785877716008869,well_true
+45,WellNorm,lgbm_wellnorm,35/9-7,10677,0.38655872725305757,well_true
+45,WellNorm,lgbm_wellnorm,25/11-24,4195,0.42280425986576137,well_true
+45,WellNorm,lgbm_wellnorm,25/7-2,23879,0.4453818222928711,well_true
+45,WellNorm,lgbm_wellnorm,31/2-21 S,7840,0.4755642303038597,well_true
+45,WellNorm,lgbm_wellnorm,35/9-6 S,13155,0.4818878412485633,well_true
+45,WellNorm,lgbm_wellnorm,25/6-2,2925,0.5335507228796103,well_true
+45,WellNorm,lgbm_wellnorm,35/11-11,12844,0.5626112684738913,well_true
+45,Hybrid,lgbm_hybrid,16/1-2,1734,0.13207489038095202,well_true
+45,Hybrid,lgbm_hybrid,34/4-10 R,3880,0.25846322248842596,well_true
+45,Hybrid,lgbm_hybrid,34/3-3 A,18190,0.27190367840967067,well_true
+45,Hybrid,lgbm_hybrid,25/10-10,9321,0.274345320048492,well_true
+45,Hybrid,lgbm_hybrid,25/5-4,13003,0.3593236012229434,well_true
+45,Hybrid,lgbm_hybrid,35/11-1,15632,0.4312894592082182,well_true
+45,Hybrid,lgbm_hybrid,25/7-2,23879,0.43571825449479584,well_true
+45,Hybrid,lgbm_hybrid,25/9-1,16111,0.4542157241114862,well_true
+45,Hybrid,lgbm_hybrid,32/2-1,3049,0.45784570305737565,well_true
+45,Hybrid,lgbm_hybrid,25/11-24,4195,0.4579723557088324,well_true
+45,Hybrid,lgbm_hybrid,25/10-9,10788,0.4613697472537428,well_true
+45,Hybrid,lgbm_hybrid,34/7-13,3900,0.4633127112948789,well_true
+45,Hybrid,lgbm_hybrid,35/9-6 S,13155,0.46515192678944917,well_true
+45,Hybrid,lgbm_hybrid,31/2-21 S,7840,0.49868652101189315,well_true
+45,Hybrid,lgbm_hybrid,35/9-7,10677,0.5025260691277188,well_true
+45,Hybrid,lgbm_hybrid,25/6-2,2925,0.5817164202455009,well_true
+45,Hybrid,lgbm_hybrid,35/11-11,12844,0.604410140797451,well_true
+45,Hybrid-norel,lgbm_hybrid_norel,34/4-10 R,3880,0.19619385924203947,well_true
+45,Hybrid-norel,lgbm_hybrid_norel,16/1-2,1734,0.2327124508270534,well_true
+45,Hybrid-norel,lgbm_hybrid_norel,25/10-10,9321,0.2669792572893222,well_true
+45,Hybrid-norel,lgbm_hybrid_norel,34/3-3 A,18190,0.2786210621501338,well_true
+45,Hybrid-norel,lgbm_hybrid_norel,25/5-4,13003,0.34989775699568043,well_true
+45,Hybrid-norel,lgbm_hybrid_norel,25/10-9,10788,0.3992124024141398,well_true
+45,Hybrid-norel,lgbm_hybrid_norel,25/9-1,16111,0.40298983454816223,well_true
+45,Hybrid-norel,lgbm_hybrid_norel,34/7-13,3900,0.43134718795080207,well_true
+45,Hybrid-norel,lgbm_hybrid_norel,31/2-21 S,7840,0.4410026927876362,well_true
+45,Hybrid-norel,lgbm_hybrid_norel,32/2-1,3049,0.44530011215380244,well_true
+45,Hybrid-norel,lgbm_hybrid_norel,25/11-24,4195,0.46036522964862414,well_true
+45,Hybrid-norel,lgbm_hybrid_norel,25/7-2,23879,0.46482351205932426,well_true
+45,Hybrid-norel,lgbm_hybrid_norel,35/9-6 S,13155,0.4665242299574001,well_true
+45,Hybrid-norel,lgbm_hybrid_norel,25/6-2,2925,0.4949279102383338,well_true
+45,Hybrid-norel,lgbm_hybrid_norel,35/11-1,15632,0.49690222825447217,well_true
+45,Hybrid-norel,lgbm_hybrid_norel,35/9-7,10677,0.505864781439204,well_true
+45,Hybrid-norel,lgbm_hybrid_norel,35/11-11,12844,0.6043207839924004,well_true
+45,Hybrid-while,lgbm_hybrid_while,16/1-2,1734,0.20391400958339007,well_true
+45,Hybrid-while,lgbm_hybrid_while,34/4-10 R,3880,0.23071505014448854,well_true
+45,Hybrid-while,lgbm_hybrid_while,34/3-3 A,18190,0.26751776021753915,well_true
+45,Hybrid-while,lgbm_hybrid_while,25/10-10,9321,0.27544797892713263,well_true
+45,Hybrid-while,lgbm_hybrid_while,25/5-4,13003,0.3570174586951803,well_true
+45,Hybrid-while,lgbm_hybrid_while,25/7-2,23879,0.4071624279992177,well_true
+45,Hybrid-while,lgbm_hybrid_while,32/2-1,3049,0.42075936476403425,well_true
+45,Hybrid-while,lgbm_hybrid_while,25/9-1,16111,0.4314999647840483,well_true
+45,Hybrid-while,lgbm_hybrid_while,35/9-6 S,13155,0.45151047379148174,well_true
+45,Hybrid-while,lgbm_hybrid_while,31/2-21 S,7840,0.4672548653539741,well_true
+45,Hybrid-while,lgbm_hybrid_while,25/11-24,4195,0.49011945806327323,well_true
+45,Hybrid-while,lgbm_hybrid_while,34/7-13,3900,0.492447803870288,well_true
+45,Hybrid-while,lgbm_hybrid_while,25/10-9,10788,0.496952513472654,well_true
+45,Hybrid-while,lgbm_hybrid_while,35/11-1,15632,0.5109435175030262,well_true
+45,Hybrid-while,lgbm_hybrid_while,35/9-7,10677,0.5461421124369704,well_true
+45,Hybrid-while,lgbm_hybrid_while,35/11-11,12844,0.5775526466927278,well_true
+45,Hybrid-while,lgbm_hybrid_while,25/6-2,2925,0.5796139284172862,well_true
+45,Hybrid+Smooth,lgbm_hybrid_smooth,16/1-2,1734,0.12076673247150227,well_true
+45,Hybrid+Smooth,lgbm_hybrid_smooth,34/4-10 R,3880,0.2633766022749796,well_true
+45,Hybrid+Smooth,lgbm_hybrid_smooth,34/3-3 A,18190,0.2761119766621742,well_true
+45,Hybrid+Smooth,lgbm_hybrid_smooth,25/10-10,9321,0.2799024545698948,well_true
+45,Hybrid+Smooth,lgbm_hybrid_smooth,25/5-4,13003,0.36067707697157986,well_true
+45,Hybrid+Smooth,lgbm_hybrid_smooth,35/11-1,15632,0.43350598588737155,well_true
+45,Hybrid+Smooth,lgbm_hybrid_smooth,25/10-9,10788,0.44280239125372495,well_true
+45,Hybrid+Smooth,lgbm_hybrid_smooth,25/7-2,23879,0.44408273584552266,well_true
+45,Hybrid+Smooth,lgbm_hybrid_smooth,25/11-24,4195,0.45272352524506526,well_true
+45,Hybrid+Smooth,lgbm_hybrid_smooth,35/9-6 S,13155,0.45740753727198225,well_true
+45,Hybrid+Smooth,lgbm_hybrid_smooth,25/9-1,16111,0.46049792020263924,well_true
+45,Hybrid+Smooth,lgbm_hybrid_smooth,34/7-13,3900,0.4656171799960538,well_true
+45,Hybrid+Smooth,lgbm_hybrid_smooth,32/2-1,3049,0.46766434585011674,well_true
+45,Hybrid+Smooth,lgbm_hybrid_smooth,35/9-7,10677,0.4809449593395937,well_true
+45,Hybrid+Smooth,lgbm_hybrid_smooth,31/2-21 S,7840,0.5059815916994839,well_true
+45,Hybrid+Smooth,lgbm_hybrid_smooth,25/6-2,2925,0.5913303881791021,well_true
+45,Hybrid+Smooth,lgbm_hybrid_smooth,35/11-11,12844,0.6128169551243888,well_true

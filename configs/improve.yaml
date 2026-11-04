@@ -1,0 +1,29 @@
+# Improved methods experiment (hybrid + similarity + smooth)
+seed: 42
+seeds: [42]
+max_wells: null
+
+methods:
+  - lgbm_global
+  - lgbm_wellnorm
+  - lgbm_hybrid
+  - lgbm_hybrid_sim
+  - lgbm_hybrid_smooth
+  - lgbm_hybrid_plus
+
+protocol1:
+  enabled: true
+  train_frac: 0.70
+  val_frac: 0.15
+
+protocol2:
+  enabled: true
+  holdout_blocks:
+    - ["15"]
+    - ["35"]
+
+protocol3:
+  enabled: false
+  max_targets: 6
+
+naive_leakage_baseline: false

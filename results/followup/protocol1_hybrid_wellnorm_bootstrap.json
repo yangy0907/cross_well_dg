@@ -1,0 +1,196 @@
+{
+  "pipeline_version": "r3_fullcurve_stats_20260930",
+  "preferred_contrast": "lgbm_hybrid_norel-lgbm_wellnorm",
+  "note": "Primary multi-seed means in the manuscript use closed-set seeds 42/43/45; seed 44 is an open-set stress with no rejection mechanism.",
+  "hybrid_norel_minus_wellnorm_all4": {
+    "tag": "all4",
+    "left_method": "lgbm_hybrid_norel",
+    "right_method": "lgbm_wellnorm",
+    "delta_macro_h_wn": {
+      "mean": 0.07930200478323463,
+      "ci_low": 0.03194915350461641,
+      "ci_high": 0.12665485606185284,
+      "n": 4,
+      "n_boot": 5000,
+      "alpha": 0.05,
+      "bootstrap_kind": "seed_level"
+    },
+    "delta_worst_h_wn": {
+      "mean": 0.05471658758199607,
+      "ci_low": 0.031381144639531705,
+      "ci_high": 0.07805203052446044,
+      "n": 4,
+      "n_boot": 5000,
+      "alpha": 0.05,
+      "bootstrap_kind": "seed_level"
+    },
+    "delta_w10_h_wn": {
+      "mean": 0.04424480400439223,
+      "ci_low": 0.028790363116201402,
+      "ci_high": 0.06899025936912147,
+      "n": 4,
+      "n_boot": 5000,
+      "alpha": 0.05,
+      "bootstrap_kind": "seed_level"
+    },
+    "delta_worst_h_global": {
+      "mean": 0.02982171450049763,
+      "ci_low": -0.01572523391325763,
+      "ci_high": 0.0746829333723453,
+      "n": 4,
+      "n_boot": 5000,
+      "alpha": 0.05,
+      "bootstrap_kind": "seed_level"
+    }
+  },
+  "hybrid_norel_minus_wellnorm_closed": {
+    "tag": "closed",
+    "left_method": "lgbm_hybrid_norel",
+    "right_method": "lgbm_wellnorm",
+    "delta_macro_h_wn": {
+      "mean": 0.09582871072281733,
+      "ci_low": 0.0341764200447463,
+      "ci_high": 0.14235008867754279,
+      "n": 3,
+      "n_boot": 5000,
+      "alpha": 0.05,
+      "bootstrap_kind": "seed_level"
+    },
+    "delta_worst_h_wn": {
+      "mean": 0.06469479824683742,
+      "ci_low": 0.0379803336915914,
+      "ci_high": 0.08288480512757679,
+      "n": 3,
+      "n_boot": 5000,
+      "alpha": 0.05,
+      "bootstrap_kind": "seed_level"
+    },
+    "delta_w10_h_wn": {
+      "mean": 0.047010440324421636,
+      "ci_low": 0.0264045191401672,
+      "ci_high": 0.08066711782169408,
+      "n": 3,
+      "n_boot": 5000,
+      "alpha": 0.05,
+      "bootstrap_kind": "seed_level"
+    },
+    "delta_worst_h_global": {
+      "mean": 0.025143272466300565,
+      "ci_low": -0.03558599208537311,
+      "ci_high": 0.0938579620025532,
+      "n": 3,
+      "n_boot": 5000,
+      "alpha": 0.05,
+      "bootstrap_kind": "seed_level"
+    }
+  },
+  "full_hybrid_minus_wellnorm_all4": {
+    "tag": "full_hybrid_all4",
+    "left_method": "lgbm_hybrid",
+    "right_method": "lgbm_wellnorm",
+    "delta_macro_h_wn": {
+      "mean": 0.09237592168857162,
+      "ci_low": 0.05106846694658934,
+      "ci_high": 0.1336833764305539,
+      "n": 4,
+      "n_boot": 5000,
+      "alpha": 0.05,
+      "bootstrap_kind": "seed_level"
+    },
+    "delta_worst_h_wn": {
+      "mean": 0.027483563389439095,
+      "ci_low": -0.006567716899076197,
+      "ci_high": 0.05897459253020339,
+      "n": 4,
+      "n_boot": 5000,
+      "alpha": 0.05,
+      "bootstrap_kind": "seed_level"
+    },
+    "delta_w10_h_wn": {
+      "mean": 0.04247144768652453,
+      "ci_low": 0.015450710432346498,
+      "ci_high": 0.06949218494070256,
+      "n": 4,
+      "n_boot": 5000,
+      "alpha": 0.05,
+      "bootstrap_kind": "seed_level"
+    },
+    "delta_worst_h_global": {
+      "mean": 0.0025886903079406463,
+      "ci_low": -0.06547902353922977,
+      "ci_high": 0.05499126633792735,
+      "n": 4,
+      "n_boot": 5000,
+      "alpha": 0.05,
+      "bootstrap_kind": "seed_level"
+    }
+  },
+  "hybrid_norel_minus_wellnorm_norel_closed": {
+    "tag": "2x2_closed",
+    "left_method": "lgbm_hybrid_norel",
+    "right_method": "lgbm_wellnorm_norel",
+    "delta_macro_h_wn": {
+      "mean": 0.09266018964419119,
+      "ci_low": 0.047942011513848304,
+      "ci_high": 0.15848763382698017,
+      "n": 3,
+      "n_boot": 5000,
+      "alpha": 0.05,
+      "bootstrap_kind": "seed_level"
+    },
+    "delta_worst_h_wn": {
+      "mean": 0.057669498810489626,
+      "ci_low": 0.01229038257868148,
+      "ci_high": 0.0902569250836881,
+      "n": 3,
+      "n_boot": 5000,
+      "alpha": 0.05,
+      "bootstrap_kind": "seed_level"
+    },
+    "delta_w10_h_wn": {
+      "mean": 0.0416752720540704,
+      "ci_low": -0.0023807590924233013,
+      "ci_high": 0.06448636767726731,
+      "n": 3,
+      "n_boot": 5000,
+      "alpha": 0.05,
+      "bootstrap_kind": "seed_level"
+    },
+    "delta_worst_h_global": {
+      "mean": 0.025143272466300565,
+      "ci_low": -0.03558599208537311,
+      "ci_high": 0.0938579620025532,
+      "n": 3,
+      "n_boot": 5000,
+      "alpha": 0.05,
+      "bootstrap_kind": "seed_level"
+    }
+  },
+  "delta_macro_h_wn": {
+    "mean": 0.07930200478323463,
+    "ci_low": 0.03194915350461641,
+    "ci_high": 0.12665485606185284,
+    "n": 4,
+    "n_boot": 5000,
+    "alpha": 0.05,
+    "bootstrap_kind": "seed_level"
+  },
+  "delta_worst_h_wn": {
+    "mean": 0.05471658758199607,
+    "ci_low": 0.031381144639531705,
+    "ci_high": 0.07805203052446044,
+    "n": 4,
+    "n_boot": 5000,
+    "alpha": 0.05,
+    "bootstrap_kind": "seed_level"
+  },
+  "delta_w10_h_wn": {
+    "mean": 0.04424480400439223,
+    "ci_low": 0.028790363116201402,
+    "ci_high": 0.06899025936912147,
+    "n": 4,
+    "n_boot": 5000,
+    "alpha": 0.05,
+    "bootstrap_kind": "seed_level"
+  }
+}

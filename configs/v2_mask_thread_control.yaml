@@ -1,0 +1,7 @@
+study: v2_mask_thread_control_20261103
+seed: 42
+method: lgbm_wellnorm
+curves: [GR, RHOB, NPHI, DTC, DTS, PEF, CALI, RDEP, RMED, RSHA, RXO, SP, ROP, DRHO, BS, MUDWEIGHT]
+raw_missingness_mask: false
+n_jobs: 8
+purpose: one legacy-mask run at the pilot thread count to isolate the mask correction from a compute-setting change

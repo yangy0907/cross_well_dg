@@ -1,0 +1,20 @@
+# Fill Hybrid+Smooth for Protocol-1 seed 43
+seed: 43
+seeds: [43]
+max_wells: null
+
+methods:
+  - lgbm_hybrid_smooth
+
+protocol1:
+  enabled: true
+  train_frac: 0.70
+  val_frac: 0.15
+
+protocol2:
+  enabled: false
+
+protocol3:
+  enabled: false
+
+naive_leakage_baseline: false

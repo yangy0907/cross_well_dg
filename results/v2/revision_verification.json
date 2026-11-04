@@ -1,0 +1,23 @@
+{
+  "unchanged_candidate_boundaries": true,
+  "checked_legacy_files": 427,
+  "mismatches": [],
+  "new_pilot_fits": 20,
+  "additional_diagnostic_fits": 1,
+  "original_source_reproduction_fits": 1,
+  "phase_total_fit_executions": 22,
+  "reused_reference_rows": 12,
+  "matched_rows": 32,
+  "closed_seeds": [
+    42,
+    43,
+    45
+  ],
+  "open_seeds": [
+    44
+  ],
+  "reproduction_passed": true,
+  "same_thread_legacy_equivalent": true,
+  "unexpanded_manuscript_placeholders": [],
+  "scope": "Local revision audit; not population inference or acceptance certification."
+}

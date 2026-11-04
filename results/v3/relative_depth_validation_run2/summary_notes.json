@@ -1,0 +1,37 @@
+{
+  "new_split_fit_count": 12,
+  "reproduction_gate_fit_count": 1,
+  "boundary_additional_fits": 0,
+  "successful_fit_count": 13,
+  "prior_failed_gate_fit_count": 1,
+  "total_fit_attempts": 14,
+  "n_closed_splits": 3,
+  "n_open_splits": 0,
+  "new_split_seeds": [
+    20261103,
+    20261104,
+    20261105
+  ],
+  "grouping": "parent_grouped",
+  "common_classes": [
+    "Anhydrite",
+    "Chalk",
+    "Coal",
+    "Dolomite",
+    "Halite",
+    "Limestone",
+    "Marl",
+    "Sandstone",
+    "Sandstone/Shale",
+    "Shale",
+    "Tuff"
+  ],
+  "mean_depth_gain_core4": 0.01914016747897096,
+  "mean_depth_gain_full16": 0.008181282283015567,
+  "mean_difference_of_differences": 0.010958885195955392,
+  "n_positive_interactions": 2,
+  "boundary_scenarios_including_baseline": 7,
+  "boundary_model_scenario_rows": 42,
+  "boundary_support_checks_passed": true,
+  "scope": "New overlapping partitions of the same corpus; no external dataset, population test or geological causal identification."
+}

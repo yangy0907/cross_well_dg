@@ -1,0 +1,74 @@
+{
+  "scope": "Existing v1 closed splits only; no refitting",
+  "split_well_rows": 1845,
+  "parent_effect_summary": [
+    {
+      "mode": "parent_grouped",
+      "contrast": "HN-Global",
+      "n_parents": 106,
+      "n_positive_parents": 78,
+      "mean_delta_present": 0.026780802464262426,
+      "median_delta_present": 0.017241667609777953,
+      "p10_delta_present": -0.034632591789525456,
+      "p90_delta_present": 0.10582764347254686
+    },
+    {
+      "mode": "parent_grouped",
+      "contrast": "Hybrid-HN",
+      "n_parents": 106,
+      "n_positive_parents": 71,
+      "mean_delta_present": 0.01307903812002939,
+      "median_delta_present": 0.014315561105760665,
+      "p10_delta_present": -0.03182133305479425,
+      "p90_delta_present": 0.062457630084180815
+    },
+    {
+      "mode": "parent_grouped",
+      "contrast": "Hybrid-WellNorm-legacy",
+      "n_parents": 106,
+      "n_positive_parents": 91,
+      "mean_delta_present": 0.04580279878029176,
+      "median_delta_present": 0.039205212360996375,
+      "p10_delta_present": -0.007968721554761578,
+      "p90_delta_present": 0.11987841070900007
+    },
+    {
+      "mode": "well_id",
+      "contrast": "HN-Global",
+      "n_parents": 107,
+      "n_positive_parents": 75,
+      "mean_delta_present": 0.02718106572029227,
+      "median_delta_present": 0.02441798250246391,
+      "p10_delta_present": -0.04272692266030647,
+      "p90_delta_present": 0.10029464531091602
+    },
+    {
+      "mode": "well_id",
+      "contrast": "Hybrid-HN",
+      "n_parents": 107,
+      "n_positive_parents": 71,
+      "mean_delta_present": 0.009531870281577936,
+      "median_delta_present": 0.010430791576720944,
+      "p10_delta_present": -0.02600317282431439,
+      "p90_delta_present": 0.046012517309562274
+    },
+    {
+      "mode": "well_id",
+      "contrast": "Hybrid-WellNorm-legacy",
+      "n_parents": 107,
+      "n_positive_parents": 88,
+      "mean_delta_present": 0.042475133286192124,
+      "median_delta_present": 0.041273036336324176,
+      "p10_delta_present": -0.014655092781941124,
+      "p90_delta_present": 0.11430890733714018
+    }
+  ],
+  "unit": "Average appearances per well, then average sibling wells per parent; models and source wells remain shared.",
+  "limitations": [
+    "No population confidence intervals or p-values.",
+    "Class-composition descriptors require true labels and are not deployment predictors.",
+    "Drift descriptors also reflect geology and sampling; they do not identify instrument effects.",
+    "Hybrid-WellNorm-legacy includes the old missing-mask asymmetry; not a clean causal contrast.",
+    "Case wells selected post-hoc for illustration; n_test_appearances is reported."
+  ]
+}

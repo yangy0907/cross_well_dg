@@ -1,0 +1,14 @@
+# Exact versions from the environment that produced revision tables (2026-09-26).
+# Python: 3.11.5 (Windows AMD64). Record with `python --version` at release.
+# Install: pip install -r requirements.lock.txt
+pandas==3.0.6
+numpy==2.4.6
+pyarrow==25.0.1
+lightgbm==4.7.0
+scikit-learn==1.9.1
+xgboost==3.2.0
+pyyaml==6.0.3
+tqdm==4.70.1
+matplotlib==3.11.2
+joblib==1.6.0
+pytest==9.1.1

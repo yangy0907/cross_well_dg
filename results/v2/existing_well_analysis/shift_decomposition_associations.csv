@@ -1,0 +1,7 @@
+mode,descriptor,n_parents,rho,meaning
+parent_grouped,composition_abs_z,106,-0.1599869007733582,Post-hoc true-label-dependent association; not an instrument/geology causal decomposition or deployment predictor.
+parent_grouped,within_class_abs_z,106,-0.1422626394941683,Post-hoc true-label-dependent association; not an instrument/geology causal decomposition or deployment predictor.
+parent_grouped,composition_fraction,106,-0.04052195380003527,Post-hoc true-label-dependent association; not an instrument/geology causal decomposition or deployment predictor.
+well_id,composition_abs_z,107,-0.0861400105801446,Post-hoc true-label-dependent association; not an instrument/geology causal decomposition or deployment predictor.
+well_id,within_class_abs_z,107,-0.24463645447598897,Post-hoc true-label-dependent association; not an instrument/geology causal decomposition or deployment predictor.
+well_id,composition_fraction,107,0.08538568545621975,Post-hoc true-label-dependent association; not an instrument/geology causal decomposition or deployment predictor.

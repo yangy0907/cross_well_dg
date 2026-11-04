@@ -1,0 +1,63 @@
+{
+  "c_common": [
+    "Anhydrite",
+    "Chalk",
+    "Coal",
+    "Dolomite",
+    "Halite",
+    "Limestone",
+    "Marl",
+    "Sandstone",
+    "Sandstone/Shale",
+    "Shale",
+    "Tuff"
+  ],
+  "closed_seeds": [
+    42,
+    43,
+    45
+  ],
+  "train_sets": {
+    "42": [
+      "Anhydrite",
+      "Chalk",
+      "Coal",
+      "Dolomite",
+      "Halite",
+      "Limestone",
+      "Marl",
+      "Sandstone",
+      "Sandstone/Shale",
+      "Shale",
+      "Tuff"
+    ],
+    "43": [
+      "Anhydrite",
+      "Basement",
+      "Chalk",
+      "Coal",
+      "Dolomite",
+      "Halite",
+      "Limestone",
+      "Marl",
+      "Sandstone",
+      "Sandstone/Shale",
+      "Shale",
+      "Tuff"
+    ],
+    "45": [
+      "Anhydrite",
+      "Chalk",
+      "Coal",
+      "Dolomite",
+      "Halite",
+      "Limestone",
+      "Marl",
+      "Sandstone",
+      "Sandstone/Shale",
+      "Shale",
+      "Tuff"
+    ]
+  },
+  "note": "C_common = intersection of train-learnable class names across closed analysis splits; missing class F1=0 in Macro_Ccommon"
+}

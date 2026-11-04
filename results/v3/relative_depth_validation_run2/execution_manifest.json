@@ -1,0 +1,138 @@
+{
+  "execution_fingerprint": "babb846292b17798637b54686c674e93ce2113d1790c1a18450e6ea0e6173d16",
+  "source_hashes": {
+    "scripts\\v3_depth_validation.py": "ff6c069f4841879b1afab3de68d85ee56ca84c1bcaf3da4981f6f58557ce3292",
+    "configs\\v3_relative_depth_validation.yaml": "b10b21a65338cb9e5911f395630257dfdc2953f1f13799ec1c8f307e029eae90",
+    "requirements.lock.txt": "31bc953b67ca817566856e70fe9f19dd147ec63b298c007fa2d781bf35102f29",
+    "tests\\test_v3_depth_validation.py": "8fc6c9f618a8e56797b9ab04479c268ee099bfdda61c3e24f44545a1b8c944ab",
+    "results\\v3\\ANALYSIS_PLAN.md": "3d4bece696a11841581a9cfbd496f48c26b23f3f8c2e485553401fc502aea518",
+    "src\\features.py": "f4ca7196ba7cbf81b4eac942674c970d42cdb7a0da2b60666693d175e025ce5a",
+    "src\\models.py": "25ef229d7e23be7c71448e79d865fec7e813131e04996d5e581a65f6e10d6e8b",
+    "src\\metrics.py": "d4186d0ae3700ce679d0af5a8c42eaf82c8f2d7bfa08eca1557daf46e84931d7",
+    "src\\splits.py": "e0d754550cc553e92a67f573a9db464745f070303b88fad5fe288d99bb7fe6b6",
+    "src\\constants.py": "1c831f7120221bd7e4e49dc06c302eee4c7b0f97100af85772e5dcd9acfac7b3",
+    "src\\provenance.py": "dc97526f46830b5305dbfd0968df0c4fe4d3486299bc7e9ad65eace5f6c553ee",
+    "results\\v3\\relative_depth_validation_run2\\splits\\parent_seed20261103.json": "37fb407dd82f0347e76d5ddaa9e7c813b32e8504997e515b6101c69802c4cf00",
+    "results\\v3\\relative_depth_validation_run2\\splits\\parent_seed20261104.json": "8ab55c56a88ca6c0cd0abb105d22cb657e7e5399db06242bcb48b3e15d3174be",
+    "results\\v3\\relative_depth_validation_run2\\splits\\parent_seed20261105.json": "942825657b2535eb99eb044f250d08a0c1961667b1b14c1b1b1ba658b3455579",
+    "data\\processed\\labeled.parquet": "43041111a78dd4726423d9f43fb9a3cc00d7284ebd9c49071c459697b99c0e87",
+    "data\\processed\\curves_all.parquet": "91c87c5b4f834397daa00b01ae727b059675863211f044645de62d451cfb8c46",
+    "results/v2/pilot_common_core/details/core4_seed42_lgbm_hybrid.json": "263807ecaebc86c72784667aa68a944532fc434def3c87e9dc38ac9673f79ff1"
+  },
+  "config": {
+    "study": "v3_relative_depth_validation_20261103",
+    "seeds": [
+      20261103,
+      20261104,
+      20261105
+    ],
+    "grouping": "parent_grouped",
+    "train_frac": 0.7,
+    "val_frac": 0.15,
+    "curve_sets": {
+      "core4": [
+        "GR",
+        "RHOB",
+        "NPHI",
+        "DTC"
+      ],
+      "full16": [
+        "GR",
+        "RHOB",
+        "NPHI",
+        "DTC",
+        "DTS",
+        "PEF",
+        "CALI",
+        "RDEP",
+        "RMED",
+        "RSHA",
+        "RXO",
+        "SP",
+        "ROP",
+        "DRHO",
+        "BS",
+        "MUDWEIGHT"
+      ]
+    },
+    "methods": [
+      "lgbm_hybrid_norel",
+      "lgbm_hybrid"
+    ],
+    "raw_missingness_mask": true,
+    "n_jobs": 8,
+    "n_workers": 2,
+    "n_estimators": 180,
+    "gate": {
+      "seed": 42,
+      "curve_set": "core4",
+      "method": "lgbm_hybrid"
+    },
+    "boundary_crops": [
+      {
+        "name": "baseline",
+        "top": 0.0,
+        "bottom": 0.0
+      },
+      {
+        "name": "top10",
+        "top": 0.1,
+        "bottom": 0.0
+      },
+      {
+        "name": "bottom10",
+        "top": 0.0,
+        "bottom": 0.1
+      },
+      {
+        "name": "both10",
+        "top": 0.1,
+        "bottom": 0.1
+      },
+      {
+        "name": "top20",
+        "top": 0.2,
+        "bottom": 0.0
+      },
+      {
+        "name": "bottom20",
+        "top": 0.0,
+        "bottom": 0.2
+      },
+      {
+        "name": "both20",
+        "top": 0.2,
+        "bottom": 0.2
+      }
+    ],
+    "boundary_rule": "Retain only labelled rows inside the cropped interval. Compare baseline-Hybrid, changed-relative-depth-Hybrid and Hybrid-norel on exactly those same rows. Hold all non-relative-depth features fixed.",
+    "interpretation": "Controlled inference sensitivity of the relative-depth coordinate, not a physical incomplete-log experiment; full-curve well-z moments are deliberately held fixed.",
+    "primary_contrast": "(Hybrid-Hybrid_norel)_core4 minus (Hybrid-Hybrid_norel)_full16, separately within each new split.",
+    "regime_rule": "Test labels absent from training imply open_set. Execute every fixed seed; no score-based selection or replacements.",
+    "uncertainty": "Descriptive paired effects and split SD only. Same corpus and overlapping source/test wells; no independent-corpus or population-inference claim.",
+    "output_dir": "results/v3/relative_depth_validation_run2",
+    "prior_failed_gate_fit_count": 1
+  },
+  "regimes": [
+    {
+      "seed": 20261103,
+      "unseen_test_rows": 0,
+      "regime": "closed_set"
+    },
+    {
+      "seed": 20261104,
+      "unseen_test_rows": 0,
+      "regime": "closed_set"
+    },
+    {
+      "seed": 20261105,
+      "unseen_test_rows": 0,
+      "regime": "closed_set"
+    }
+  ],
+  "python": "3.11.5 (tags/v3.11.5:cce6ba9, Aug 24 2023, 14:38:34) [MSC v.1936 64 bit (AMD64)]",
+  "locked_at": "2026-11-03T17:33:17.215852+08:00",
+  "planned_new_split_fits": 12,
+  "planned_gate_fits": 1,
+  "prior_failed_gate_fit_count": 1
+}

@@ -1,0 +1,30 @@
+{
+  "new_fit_count": 20,
+  "reused_reference_count": 12,
+  "total_matched_rows": 32,
+  "closed_splits": [
+    42,
+    43,
+    45
+  ],
+  "open_splits": [
+    44
+  ],
+  "common_classes": [
+    "Anhydrite",
+    "Chalk",
+    "Coal",
+    "Dolomite",
+    "Halite",
+    "Limestone",
+    "Marl",
+    "Sandstone",
+    "Sandstone/Shale",
+    "Shale",
+    "Tuff"
+  ],
+  "matched_training_test_rows": true,
+  "pilot": "Exploratory; three overlapping closed splits, not population inference or a full replication of Carvalho preprocessing.",
+  "raw_masks": "New fits consistently use original observed missingness. Old WellNorm references are shown only in the explicit mask control.",
+  "reference_compute": "v1 references used n_jobs=-1; new pilot fits use 8 threads. Same learner hyperparameters/early stopping/rows/seeds; runtime is not compared."
+}

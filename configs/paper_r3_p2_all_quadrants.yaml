@@ -1,0 +1,35 @@
+# Protocol-2 expand: all NPD quadrants with >=2 wells (r3)
+seed: 42
+seeds: [42]
+max_wells: null
+
+methods:
+  - lgbm_global
+  - lgbm_wellnorm
+  - lgbm_hybrid
+  - lgbm_hybrid_smooth
+  - lgbm_hybrid_sim
+  - lgbm_hybrid_plus
+
+protocol1:
+  enabled: false
+
+protocol2:
+  enabled: true
+  holdout_blocks:
+    - ["7"]
+    - ["15"]
+    - ["16"]
+    - ["17"]
+    - ["25"]
+    - ["29"]
+    - ["31"]
+    - ["33"]
+    - ["34"]
+    - ["35"]
+    - ["36"]
+
+protocol3:
+  enabled: false
+
+naive_leakage_baseline: false

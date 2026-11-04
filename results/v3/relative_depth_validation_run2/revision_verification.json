@@ -1,0 +1,16 @@
+{
+  "v2_files_checked": 226,
+  "v2_mismatches": [],
+  "v1_boundary_files_checked": 427,
+  "v1_boundary_mismatches": [],
+  "new_split_models": 12,
+  "successful_gate_models": 1,
+  "prior_failed_gate_fit_attempts": 1,
+  "phase_total_fit_attempts": 14,
+  "boundary_additional_fits": 0,
+  "paired_scoring_support_verified": true,
+  "original_float64_depths_used": true,
+  "saved_model_full_baseline_predictions_identical": true,
+  "unexpanded_manuscript_placeholders": [],
+  "gate_passed": true
+}

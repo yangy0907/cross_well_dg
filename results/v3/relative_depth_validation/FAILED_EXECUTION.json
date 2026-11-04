@@ -1,0 +1,8 @@
+{
+  "stage": "gate_model_persistence",
+  "gate_fit_attempts": 1,
+  "new_split_fit_attempts": 0,
+  "cause": "LightGBM native Windows model saving rejected a Unicode output path after the gate fit.",
+  "resolution": "Python UTF-8 model-text write/readback; new frozen execution in relative_depth_validation_run2.",
+  "scientific_design_changed": false
+}

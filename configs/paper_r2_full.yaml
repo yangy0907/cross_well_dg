@@ -1,0 +1,33 @@
+# Round-2 unified re-run after inductive-DG / CORAL fixes
+seed: 42
+seeds: [42, 43, 44, 45]
+max_wells: null
+
+methods:
+  - lgbm_global
+  - rf_global
+  - lgbm_wellnorm
+  - lgbm_hybrid
+  - lgbm_hybrid_smooth
+  - lgbm_hybrid_sim
+  - lgbm_hybrid_plus
+  - mlp_source_only
+  - mlp_coral_uda
+
+protocol1:
+  enabled: true
+  train_frac: 0.70
+  val_frac: 0.15
+
+protocol2:
+  enabled: true
+  holdout_blocks:
+    - ["15"]
+    - ["35"]
+
+protocol3:
+  enabled: true
+  max_targets: 6
+  selection: spaced
+
+naive_leakage_baseline: true
