@@ -128,7 +128,7 @@ Lithofacies data: FORCE 2020 Machine Learning competition
 Bormann et al. 2020 — https://github.com/bolgebrygg/Force-2020-Machine-Learning-competition  
 Zenodo: https://doi.org/10.5281/zenodo.4351156
 
-Software archive: public GitHub repository at https://github.com/yangy0907/cross_well_dg (commit `4f0a0ac`, branch `main`); Zenodo-tagged release planned at camera-ready.  
-See `RELEASE_CHECKLIST.md` for tagging a clean tree and depositing on Zenodo at camera-ready. Metadata stub: `.zenodo.json`.
+Software archive: https://github.com/yangy0907/cross_well_dg (release `v1.0.0`) and Zenodo DOI https://doi.org/10.5281/zenodo.23946367.  
+Metadata stub: `.zenodo.json`. Citation file: `CITATION.cff`.
 
 Primary Protocol-1 multi-seed means use the locked **20-seed list (18 closed / 2 open)**; historical closed-set seeds 42/43/45 are SI / acceptance-record contrast only.

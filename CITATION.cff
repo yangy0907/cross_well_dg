@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: "cross_well_dg: Cross-well lithofacies evaluation protocols under domain shift (FORCE 2020)"
+version: 1.0.0
+date-released: "2026-11-04"
+type: software
+authors:
+  - family-names: Yang
+    given-names: Yun
+    orcid: "https://orcid.org/0009-0001-1987-9516"
+    affiliation: "Southwest Petroleum University"
+  - family-names: Du
+    given-names: Lihang
+    affiliation: "Southwest Petroleum University"
+  - family-names: Yi
+    given-names: Wentao
+    affiliation: "Southwest Petroleum University"
+  - family-names: He
+    given-names: An
+    affiliation: "Southwest Petroleum University"
+  - family-names: Pu
+    given-names: Xueqin
+    affiliation: "Southwest Petroleum University"
+repository-code: "https://github.com/yangy0907/cross_well_dg"
+url: "https://doi.org/10.5281/zenodo.23946367"
+doi: "10.5281/zenodo.23946367"
+license: MIT
+keywords:
+  - well logs
+  - lithofacies
+  - domain shift
+  - FORCE 2020
+  - LightGBM
